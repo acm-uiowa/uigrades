@@ -30,9 +30,9 @@ const CourseListItem = ({course, navigate}) => {
             {course["SEMESTER"]} {course["YEAR"]}
           </p>
         </div>
-        <p>
+        <p className="items-center flex pl-2">
           <FontAwesomeIcon icon={faUser} className="text-yellow-400 text-xl" />{" "}
-          <span className="text-xl">{classTotal}</span>
+          <span className="text-xl pl-1.5">{classTotal}</span>
         </p>
       </>
     );
