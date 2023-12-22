@@ -2,9 +2,10 @@ import "../App.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {faAngleRight} from "@fortawesome/free-solid-svg-icons"
 import {faAngleLeft} from "@fortawesome/free-solid-svg-icons"
-
+import {useTheme} from "../context/ThemeContext.js"
 
 const Pagination = ({handlePrevPage, handleNextPage, currentPage, totalPages}) => {
+  const { isDarkMode, toggleTheme} = useTheme();
   return (
     <div className="flex justify-center items-center mb-20 gap-10 mt-auto">
       <button
@@ -19,13 +20,25 @@ const Pagination = ({handlePrevPage, handleNextPage, currentPage, totalPages}) =
         <FontAwesomeIcon icon={faAngleLeft} />
       </button>
       <div className="flex justify-center items-center">
-        <span className="rounded-full bg-stone-50 shadow-sm text-black w-10 h-10 transition-opacity duration-300 justify-center flex items-center">
+        <span className={`rounded-full ${
+          isDarkMode
+            ? "bg-zinc-500 text-white"
+            : "bg-stone-50 text-black"
+          } w-10 h-10 justify-center flex items-center shadow-md`}>
           {currentPage == 1 ? "-" : currentPage - 1}
         </span>
-        <span className="rounded-full bg-white text-black w-14 h-14 justify-center flex items-center shadow-xl">
+        <span className={`rounded-full ${
+          isDarkMode
+            ? "bg-zinc-400 text-white"
+            : "bg-white text-black"
+          } w-14 h-14 justify-center mx-1 flex items-center shadow-xl`}>
           {currentPage}
         </span>
-        <span className="rounded-full bg-stone-50 shadow-sm text-black w-10 h-10 justify-center flex items-center">
+        <span className={`rounded-full ${
+          isDarkMode
+            ? "bg-zinc-500 text-white"
+            : "bg-stone-50 text-black"
+          } w-10 h-10 justify-center flex items-center shadow-md`}>
           {currentPage == totalPages ? "-" : currentPage + 1}
         </span>
       </div>

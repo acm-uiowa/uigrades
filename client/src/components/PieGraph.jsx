@@ -27,6 +27,7 @@ const BarGraph = ({course}) => {
         },
         scales: {
             y: {
+            display: false,
             beginAtZero: true,
             ticks: {
                 stepSize: 1,
