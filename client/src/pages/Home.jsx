@@ -1,21 +1,45 @@
 import Footer from '../components/Footer.jsx'
 import LandingNavbar from '../components/LandingNavbar.jsx'
 import { Link } from 'react-router-dom'
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import { useTheme } from '../context/ThemeContext.js'
 import "../App.css";
 
 const Home = () => {
 
   const { isDarkMode, toggleTheme } = useTheme();
+  const [showMaintenance, setShowMaintenance] = useState(false);
 
   useEffect(() => {
     window.scrollTo(0, 0); // Scroll to the top when the component renders
     document.title = `UIGrades`;
+    // set the maintenance page to true for 5 seconds only if they haven't seen it before
+    const seenMaintenance = localStorage.getItem("seenMaintenance");
+    if (!seenMaintenance) {
+      setShowMaintenance(true);
+      setTimeout(() => {
+        setShowMaintenance(false);
+        localStorage.setItem("seenMaintenance", true);
+      }, 8000);
+    }
   }, []);
 
   return (
     <div className="min-h-screen flex flex-col z-10 relative justify-center items-center">
+      {showMaintenance && (
+        <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50 flex justify-center items-center z-50">
+          <div className="bg-white rounded-lg p-10">
+            <h1 className="text-3xl font-bold text-center">
+              <span className="text-yellow-400">UI Grades</span> will be under
+              maintenance for a few hours starting 12/22 and will end 12/23. The
+              site may potentially be down during this window.
+            </h1>
+            <p className="text-lg text-center">
+              Apologies for any inconvenience.
+            </p>
+          </div>
+        </div>
+      )}
       <LandingNavbar />
       <div
         className={`absolute top-0 left-0 w-full h-full ${
