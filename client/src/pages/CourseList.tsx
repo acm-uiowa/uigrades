@@ -82,9 +82,25 @@ const CourseList: React.FC = () => {
     // getCourses(currentPage, currSearchQuery);
   }, [currentPage, currSearchQuery]);
 
+  // should trigger this useeffect when the current search query changes
+  // this is a debouncer for course searching, use this so every letter doesn't fetch and update data
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      getCourses(currentPage, currSearchQuery);
+    }, 200);
+
+    return () => {
+      clearTimeout(timeout);
+    }
+  }, [currSearchQuery]);
+
+  const handleSearch = async (page:number, q:string) => {
+    setCurrSearchQuery(q);
+    setCurrentPage(page);
+  }
+
   const getCourses = async (page:number, q:string) => {
     try {
-      setCurrSearchQuery(q);
       const res = await fetch(`${SERVER}/courses?page=${page}&q=${q}`);
 
       // invalid page, default to page 1
@@ -129,8 +145,7 @@ const CourseList: React.FC = () => {
     <div ref={pageRef} className="w-full flex justify-start items-center flex-col relative min-h-screen bg-dark">
       <LandingNavbar showHome/>
       <SearchBar
-        handleSearch={getCourses}
-        setCurrentPage={setCurrentPage}
+        handleSearch={handleSearch}
         query={currSearchQuery}
       />
       {data.length === 0 && !loading ? (

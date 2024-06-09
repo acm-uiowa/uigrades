@@ -6,16 +6,14 @@ import { useTheme } from "../context/ThemeContext";
 
 interface SearchBarProps {
   handleSearch: (page: number, query: string) => void;
-  setCurrentPage: (page: number) => void;
   query: string;
 }
 
-const SearchBar: React.FC<SearchBarProps> = ({ handleSearch, setCurrentPage, query }) => {
+const SearchBar: React.FC<SearchBarProps> = ({ handleSearch, query }) => {
   const { isDarkMode } = useTheme();
 
   const clearInput = () => {
     handleSearch(1, "");
-    setCurrentPage(1);
     window.history.replaceState({}, "", `/courses?page=1`);
   };
 
@@ -35,7 +33,6 @@ const SearchBar: React.FC<SearchBarProps> = ({ handleSearch, setCurrentPage, que
           value={query}
           onChange={(e) => {
             handleSearch(1, e.target.value);
-            setCurrentPage(1);
           }}
           autoComplete="off"
           autoFocus
