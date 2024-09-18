@@ -8,6 +8,7 @@ import PageNotFound from './pages/PageNotFound.tsx';
 import Home from './pages/Home.tsx';
 import UsageGuide from './pages/UsageGuide.tsx';
 import DataTransparency from './pages/DataTransparency.tsx';
+import AdminDashboard from './pages/AdminDashboard.tsx';
 import ReactGA from 'react-ga4';
 
 const App = () => {
@@ -28,6 +29,7 @@ const App = () => {
         <Route path="/contact" element={<Contact/>} />
         <Route path="/usage-guide" element={<UsageGuide/>} />
         <Route path="/data-transparency" element={<DataTransparency/>} />
+        <Route path="/admin" element={<AdminDashboard/>} />
         <Route path="*" element={<PageNotFound/>} />
       </Routes>
     </BrowserRouter>

@@ -1,6 +1,7 @@
 const initSqlJs = require('sql.js/dist/sql-wasm');
 const fs = require('fs');
 const csv = require('csv-parser');
+require('dotenv').config();
 
 let db;
 
@@ -314,6 +315,21 @@ const getSimilarCourses = (req, res) => {
     }
 }
 
+// check if admin successfully logged in
+const checkAdmin = (req, res) => {
+    const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD;
+    try {
+        let code = req.body.code
+        if (code == ADMIN_PASSWORD) {
+            res.json({success: true});
+            return
+        } res.json({success: false});
+    } catch (error) {
+        console.error("Error checking admin", error);
+        res.status(500).json({ error: "Internal Server Error" });
+    }
+}
+
 // const getAggregatedCourses = (req, res) => {
 //     try {
 //         const id = req.params.id;
@@ -358,4 +374,4 @@ const getSimilarCourses = (req, res) => {
 //     }
 // }
 
-module.exports = {getAllCourses, getCourse, getSimilarCourses}
+module.exports = {getAllCourses, getCourse, getSimilarCourses, checkAdmin};
