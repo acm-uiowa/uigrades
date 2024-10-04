@@ -4,11 +4,12 @@ import { useNavigate } from 'react-router-dom';
 import Navbar from '../components/Navbar.tsx';
 import Footer from '../components/Footer.tsx';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faUser, faArrowUpRightFromSquare, faQuestion } from '@fortawesome/free-solid-svg-icons';
+import {faUser, faArrowUpRightFromSquare, faQuestion, faShareNodes } from '@fortawesome/free-solid-svg-icons';
 import Loading from "../components/Loading.tsx"
 import MessagePopup from "../components/MessagePopup.tsx"
 import config from '../config.js';
 import PromptInfoModal from '../components/PromptInfoModal.tsx';
+import { Link } from 'react-router-dom';
 
 import '../App.css';
 
@@ -249,7 +250,7 @@ const CoursePage:React.FC = () => {
                   </span>}
               </div>
               <div className='flex justify-center items-end gap-2 text-lg md:text-3xl text-center'>
-                <h2 className="text-zinc-300 max-w-64 md:max-w-auto truncate overflow-hidden whitespace-nowrap overflow-ellipsis">
+                <h2 className="text-zinc-300 max-w-100 md:max-w-auto truncate overflow-hidden whitespace-nowrap overflow-ellipsis">
                   {course[2]}{" "}
                 </h2>
                 <i className='opacity-70 text-sm md:text-xl'>
@@ -267,33 +268,44 @@ const CoursePage:React.FC = () => {
           <div
             className={`w-full px-2 md:w-3/5" my-10 flex flex-col justify-center items-center`}
           >
-            <div className='flex justify-center items-center gap-5 text-zinc-300 '>
-            <p
-              className={`flex justify-center items-center text-md md:text-lg font-bold opacity-70`}
-            >
-              {!showingAggregatedGrades
-                ? `${course[1]} ${course[19]} ${course[20]}`
-                : `All ${course[19]} ${course[20]} Sections`}
-            </p>
-            <p className="flex justify-center items-center gap-2 opacity-70">
-              <FontAwesomeIcon icon={faUser} className="text-primary" />{" "}
-              {aggregatedGrades && showingAggregatedGrades
-                ? totalAggregatedStudents
-                : classTotal}
-            </p>
-            <div
-                onClick={() => {
-                  setShared(true);
-                  var currentURL = window.location.href;
-                  navigator.clipboard.writeText(currentURL);
-                  setTimeout(() => {
-                    setShared(false);
-                  }, 2000);
-                }}
-                className="flex justify-center items-center gap-2 cursor-pointer text-zinc-300 opacity-70 hover:opacity-100 duration-300 transition outline-zinc-300 outline outline-1 rounded-md p-2 text-sm"
-              >
-                <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+            <div className='flex justify-center items-center gap-5 text-zinc-300 md:flex-row flex-col'>
+              <div className='flex justify-center items-center gap-2'>
+                <p
+                  className={`flex justify-center items-center text-md md:text-lg font-bold opacity-70`}
+                >
+                  {!showingAggregatedGrades
+                    ? `${course[1]} ${course[19]} ${course[20]}`
+                    : `All ${course[19]} ${course[20]} Sections`}
+                </p>
+                <p className="flex justify-center items-center gap-2 opacity-70">
+                  <FontAwesomeIcon icon={faUser} className="text-primary" />{" "}
+                  {aggregatedGrades && showingAggregatedGrades
+                    ? totalAggregatedStudents
+                    : classTotal}
+                </p>
               </div>
+              <div className='flex gap-3 justify-center items-center'>
+                <div
+                    onClick={() => {
+                      setShared(true);
+                      var currentURL = window.location.href;
+                      navigator.clipboard.writeText(currentURL);
+                      setTimeout(() => {
+                        setShared(false);
+                      }, 2000);
+                    }}
+                    className="flex justify-center items-center gap-2 cursor-pointer text-zinc-300 opacity-70 hover:opacity-100 duration-300 transition outline-zinc-300 outline outline-1 rounded-md p-2 text-xs w-7 h-7"
+                  >
+                    <FontAwesomeIcon icon={faShareNodes} />
+                  </div>
+                  <Link
+                    to={`https://myui.uiowa.edu/my-ui/courses/dashboard.page?q.academicUnitId=&q.courseSubject=CS&q.courseNumber=4330&q.sectionNumber=&q.keywords=&q.instructors=&q.genEd=&q.sun=false&q.mon=false&q.tue=false&q.wed=false&q.thu=false&q.fri=false&q.sat=false&q.startTime=&q.endTime=&q.arrangedTime=false&q.saturdayAndEvening=false&q.distanceEd=false&q.onWeb=false&q.onIcn=false&q.gis=&q.courseType=&q.wk3=false&q.wk6=false&q.wk8=false&q.offcycle=false&q.onlyOpen=false&q.learningCenter=&q.showHonors=&q.showTile=&q.startDate=&q.sort=COURSE_NUMBER&q.sessionId=&showResults=1`}
+                    target='_blank'
+                    className="flex justify-center items-center gap-2 cursor-pointer text-zinc-300 opacity-70 hover:opacity-100 duration-300 transition outline-zinc-300 outline outline-1 rounded-md p-2 text-xs w-7 h-7"
+                  >
+                    <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+                  </Link>
+                </div>
             </div>
             <BarGraph course={courseGrades} />
 
