@@ -1,7 +1,7 @@
 "use client";
 
 import Form from "next/form";
-import { useActionState } from "react";
+import { useActionState, useEffect } from "react";
 import { SubmitButton } from "./SubmitButton";
 import { BorderContainerSmall } from "@/app/components/BorderContainerSmall";
 import { InputErrorMessage } from "./InputErrorMessage";
@@ -10,8 +10,20 @@ import submitForm from "@/app/lib/actions/contact/submit-form";
 export function ContactForm() {
     const [message, formAction, isPending] = useActionState(submitForm, {});
 
+    useEffect(() => {
+        if (message.state === "success") {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        }
+    }, [message]);
+
     return (
-        <div className="w-5/6 md:w-1/2">
+        <div className="flex w-5/6 flex-col gap-paragraph-gap md:w-1/2">
+            {message.state === "success" && (
+                <p className="content-normal text-center text-[#2EB88A]">
+                    Your message was successfully emailed to acm@uiowa.edu,
+                    thank you!
+                </p>
+            )}
             <Form
                 action={formAction}
                 className="flex flex-col gap-flex-gap-large text-content-small text-light-gray"
@@ -97,7 +109,9 @@ export function ContactForm() {
                 </div>
                 <SubmitButton pending={isPending} />
                 {message?.emailError && (
-                    <InputErrorMessage className="text-center">{message.emailError}</InputErrorMessage>
+                    <InputErrorMessage className="text-center">
+                        {message.emailError}
+                    </InputErrorMessage>
                 )}
             </Form>
         </div>
