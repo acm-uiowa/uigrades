@@ -7,6 +7,7 @@
             "instructors": ["Rebecca Laird"],
             "session": "Fall-2023",
             "subject": "CHEM",
+            "courseLevel": 2210,
             "grades": {
                 "A": 88,
                 "B": 102,
@@ -22,6 +23,7 @@
             "instructors": ["Bijaya Adhikari"],
             "session": "Spring-2024",
             "subject": "CS",
+            "courseLevel": 3330,
             "grades": {
                 "A": 8,
                 "B": 23,
@@ -37,6 +39,7 @@
             "instructors": ["Richard Peter"],
             "session": "Fall-2023",
             "subject": "FIN",
+            "courseLevel": 4410,
             "grades": {
                 "A": 20,
                 "B": 40,
@@ -52,6 +55,7 @@
             "instructors": ["Yang Cao", "Matthew Bognar"],
             "session": "Fall-2023",
             "subject": "STAT",
+            "courseLevel": 3510,
             "grades": {
                 "A": 8,
                 "B": 6,
@@ -67,6 +71,7 @@
             "instructors": ["Moreblessing Muskwe", "Michael Redmond"],
             "session": "Spring-2024",
             "subject": "BAIS",
+            "courseLevel": 3000,
             "grades": {
                 "A": 6,
                 "B": 10,
@@ -82,6 +87,7 @@
             "instructors": ["David Rethwisch"],
             "session": "Summer-2023",
             "subject": "ENGR",
+            "courseLevel": 2130,
             "grades": {
                 "A": 9,
                 "B": 11,
@@ -97,6 +103,7 @@
             "instructors": ["Anna Starcevich"],
             "session": "Fall-2023",
             "subject": "NURS",
+            "courseLevel": 3518,
             "grades": {
                 "A": 39,
                 "B": 33,
@@ -112,6 +119,7 @@
             "instructors": ["Daniel Summers"],
             "session": "Fall-2023",
             "subject": "BIOL",
+            "courseLevel": 2723,
             "grades": {
                 "A": 57,
                 "B": 30,
