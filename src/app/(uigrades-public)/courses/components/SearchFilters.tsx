@@ -49,10 +49,12 @@ export function SearchFilters({
     allSubjects,
     allSessions,
     allInstructors,
+    courseLevels,
 }: {
     allSubjects: Promise<SingleNameType[]>;
     allSessions: Promise<SingleNameType[]>;
     allInstructors: Promise<SingleNameType[]>;
+    courseLevels: string[];
 }) {
     const { push } = useRouter();
     const path = usePathname();
@@ -64,16 +66,21 @@ export function SearchFilters({
         subject: FilterType[];
         session: FilterType[];
         instructor: FilterType[];
+        courseLevel: FilterType[];
     }>({
         subject: listToFilterList(singletonDocsToList(use(allSubjects))),
         session: listToFilterList(singletonDocsToList(use(allSessions))),
         instructor: listToFilterList(singletonDocsToList(use(allInstructors))),
+        courseLevel: listToFilterList(courseLevels),
     });
 
     useEffect(() => {
         const subjectsParam = getFilters(courseFilters.subject).join(",");
         const sessionsParam = getFilters(courseFilters.session).join(",");
         const instructorsParam = getFilters(courseFilters.instructor).join(",");
+        const courseLevelsParams = getFilters(courseFilters.courseLevel).join(
+            ",",
+        );
 
         const params = new URLSearchParams(searchParams.toString());
         if (subjectsParam) {
@@ -90,6 +97,11 @@ export function SearchFilters({
             params.set("instructor_filter", instructorsParam);
         } else {
             params.delete("instructor_filter");
+        }
+        if (courseLevelsParams) {
+            params.set("course_levels_filter", courseLevelsParams);
+        } else {
+            params.delete("course_levels_filter");
         }
 
         params.delete("limit");
@@ -146,6 +158,16 @@ export function SearchFilters({
                         <span>Instructor</span>
                     </BorderContainerSmall>
                 </Filter>
+                <Filter
+                    name="courseLevel"
+                    courseFilters={courseFilters}
+                    setCourseFilters={setCourseFilters}
+                >
+                    <BorderContainerSmall className="flex w-fit flex-row items-center gap-paragraph-gap transition-colors duration-150 hover:border-primary-hover-border-color hover:text-off-white">
+                        <FilterIcon className="size-4" />
+                        <span>Course Level</span>
+                    </BorderContainerSmall>
+                </Filter>
             </div>
             <div className="flex flex-row items-center justify-center gap-flex-gap-small md:justify-start md:gap-0">
                 <button onClick={handleMobileFilterOpenClose}>
@@ -183,7 +205,7 @@ export function SearchFilters({
                                 <CloseIcon className="size-3.5" />
                             </button>
                         </div>
-                        <div className="flex flex-row flex-wrap items-center justify-center gap-flex-gap-small">
+                        <div className="flex flex-col gap-flex-gap-small">
                             <Filter
                                 name="subject"
                                 courseFilters={courseFilters}
@@ -212,6 +234,16 @@ export function SearchFilters({
                                 <BorderContainerSmall className="flex w-fit flex-row items-center gap-paragraph-gap transition-colors duration-150 hover:border-primary-hover-border-color hover:text-off-white">
                                     <FilterIcon className="size-3.5" />
                                     <span>Instructor</span>
+                                </BorderContainerSmall>
+                            </Filter>
+                            <Filter
+                                name="courseLevel"
+                                courseFilters={courseFilters}
+                                setCourseFilters={setCourseFilters}
+                            >
+                                <BorderContainerSmall className="flex w-fit flex-row items-center gap-paragraph-gap transition-colors duration-150 hover:border-primary-hover-border-color hover:text-off-white">
+                                    <FilterIcon className="size-4" />
+                                    <span>Course Level</span>
                                 </BorderContainerSmall>
                             </Filter>
                         </div>

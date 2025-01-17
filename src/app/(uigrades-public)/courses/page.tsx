@@ -5,10 +5,12 @@ import { CourseTable } from "./components/CourseTable";
 import { SearchBar } from "./components/SearchBar";
 import { SearchFilters } from "./components/SearchFilters";
 import queries from "@/db/queries";
+import levels from "@/db/seeds/data/course-levels.json";
 
 const allSubjects = queries.courses.allSubjects();
 const allSessions = queries.courses.allSessions();
 const allInstructors = queries.courses.allInstructors();
+const courseLevels = levels["course-levels"];
 
 export default async function CoursesPage({
     searchParams,
@@ -35,6 +37,7 @@ export default async function CoursesPage({
                         allSubjects={allSubjects}
                         allSessions={allSessions}
                         allInstructors={allInstructors}
+                        courseLevels={courseLevels}
                     />
                 </Suspense>
             </div>

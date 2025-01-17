@@ -109,6 +109,7 @@ async function parseRawData(workSheets: RawWorkSheetType[]) {
                     return acc;
                 }, {} as Grades);
                 const subject = course[0].split(":")[0].trim();
+                const courseLevel = parseInt(course[0].split(":")[1].trim());
 
                 allCourses[uniqueCourseID] = {
                     uniqueID: uniqueCourseID,
@@ -117,6 +118,7 @@ async function parseRawData(workSheets: RawWorkSheetType[]) {
                     instructors: [],
                     session: session,
                     subject: subject,
+                    courseLevel: courseLevel,
                     grades: grades,
                 };
 

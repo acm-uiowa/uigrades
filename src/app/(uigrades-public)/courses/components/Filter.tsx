@@ -12,17 +12,19 @@ export function Filter({
     className,
     children,
 }: {
-    name: "subject" | "session" | "instructor";
+    name: "subject" | "session" | "instructor" | "courseLevel";
     courseFilters: {
         subject: { name: string; checked: boolean }[];
         session: { name: string; checked: boolean }[];
         instructor: { name: string; checked: boolean }[];
+        courseLevel: { name: string; checked: boolean }[];
     };
     setCourseFilters: React.Dispatch<
         SetStateAction<{
             subject: { name: string; checked: boolean }[];
             session: { name: string; checked: boolean }[];
             instructor: { name: string; checked: boolean }[];
+            courseLevel: { name: string; checked: boolean }[];
         }>
     >;
     className?: string;
@@ -149,6 +151,9 @@ export function Filter({
                                     >
                                         <label className="flex flex-row gap-flex-gap-small px-paragraph-gap-small py-paragraph-gap">
                                             <input
+                                                style={{
+                                                    accentColor: "#FFCD00",
+                                                }}
                                                 tabIndex={-1}
                                                 type="checkbox"
                                                 name={option.name}

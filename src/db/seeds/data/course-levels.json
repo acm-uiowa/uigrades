@@ -1,0 +1,10 @@
+{
+    "course-levels": [
+        "Remedial 0000-9999",
+        "Undergraduate 1000-2999",
+        "UG/Grad 3000-4999",
+        "ENGR UG/Grad 5000-5999",
+        "Graduate 5000-7999",
+        "Professional 8000-9999"
+    ]
+}

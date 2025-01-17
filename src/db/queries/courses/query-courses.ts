@@ -6,12 +6,14 @@ export default async function findCourses(filters: {
     subject_filter?: string;
     session_filter?: string;
     instructor_filter?: string;
+    course_levels_filter?: string;
     skip?: string;
     limit?: string;
 }) {
     const subjects = filters.subject_filter?.split(",") ?? [];
     const sessions = filters.session_filter?.split(",") ?? [];
     const instructors = filters.instructor_filter?.split(",") ?? [];
+    const rawCourseLevels = filters.course_levels_filter?.split(",") ?? [];
 
     const pipeline = [];
 
@@ -54,6 +56,25 @@ export default async function findCourses(filters: {
         pipeline.push({
             $match: {
                 instructors: { $in: instructors },
+            },
+        });
+    }
+
+    if (rawCourseLevels.length > 0) {
+        const courseLevels = rawCourseLevels.map((level) => {
+            const split = level.split(" ");
+            const range = split[split.length - 1];
+            const [min, max] = range
+                .split("-")
+                .map((value) => parseInt(value, 10));
+            return {
+                courseLevel: { $gte: min, $lte: max },
+            };
+        });
+
+        pipeline.push({
+            $match: {
+                $or: courseLevels,
             },
         });
     }

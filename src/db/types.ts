@@ -51,6 +51,7 @@ export interface CourseType {
     instructors: string[];
     session: string;
     subject: string;
+    courseLevel: number;
     grades: Grades;
 }
 
