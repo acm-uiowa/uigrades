@@ -1,7 +1,6 @@
-import { Header } from "../../components/Header"
-import { InfoBlock } from "./components/InfoBlock"
-import changesdata from "@/db/seeds/data/change-log-info.json"
-
+import { Header } from "../../components/Header";
+import { InfoBlock } from "./components/InfoBlock";
+import changesdata from "@/db/seeds/data/change-log-info.json";
 
 export default function ChangelogPage() {
     return (
@@ -15,12 +14,14 @@ export default function ChangelogPage() {
                             date={change.date}
                             tags={change.tags}
                             changes={change.changes}
-                            detailedDescription={change.detailedDescription ?? undefined}
+                            detailedDescription={
+                                change.detailedDescription ?? undefined
+                            }
                             authors={change.authors}
                         />
                     </li>
                 ))}
             </ul>
         </div>
-    )
+    );
 }

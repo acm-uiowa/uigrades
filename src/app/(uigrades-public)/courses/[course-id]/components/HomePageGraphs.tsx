@@ -7,7 +7,7 @@ import exampleCourseData from "@/db/seeds/data/example-courses-data.json";
 const data = exampleCourseData.exampleData;
 const length = data.length;
 
-export function HomePageGraphs({ className }: {className?: string}) {
+export function HomePageGraphs({ className }: { className?: string }) {
     const [currentClass, setCurrentClass] = useState(0);
 
     useEffect(() => {
@@ -19,8 +19,6 @@ export function HomePageGraphs({ className }: {className?: string}) {
             clearInterval(interval);
         };
     }, []);
-
-    
 
     return (
         <div className={`${className}`}>

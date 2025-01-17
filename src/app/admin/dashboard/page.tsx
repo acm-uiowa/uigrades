@@ -1,7 +1,3 @@
-export default function DashboardPage({
-    children,
-}: {
-    children: React.ReactNode;
-}) {
-    return <div className="flex justify-center">{children}</div>;
+export default function DashboardPage() {
+    return <div className="flex justify-center"></div>;
 }

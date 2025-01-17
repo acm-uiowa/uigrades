@@ -36,7 +36,9 @@ export function InfoBlock({
                     </li>
                 ))}
             </ol>
-            {detailedDescription && <div className="content-small">{detailedDescription}</div>}
+            {detailedDescription && (
+                <div className="content-small">{detailedDescription}</div>
+            )}
             <span className="content-small text-light-gray">
                 <span className="font-semibold">Authors: </span>
                 {authors.join(", ")}
