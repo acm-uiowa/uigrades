@@ -1,6 +1,5 @@
 "use client";
 
-import { useState } from "react";
 import { seedDBs } from "@/db/seeds/seed";
 
 export function SeedDataButton() {
