@@ -1,36 +1,24 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# UIGrades
+![Home Page Image](/public/images/homepage.png)
+## About
+UIGrades is a web application that displays grade distributions of various courses offered at the University of Iowa. Visit the site at [uigrades.vercel.app]("https://uigrades.vercel.app/)
 
-## Getting Started
+The site is maintained by ACM@UIowa, and developed by Liao Z. For code-related questions, reach out to [Liao Zhu](mailto:liao-zhu@uiowa.edu) or the current project head ([Kyle Chi](mailto:kyle-chi@uiowa.edu)). For other concerns, please reach out to the University of Iowa's [Undergraduate Student Government](https://usg.uiowa.edu/)
 
-First, run the development server:
+## Development
+UIGrades is built with Next.js App Router, TypeScript, and MongoDB. Site hosting is done via [Vercel](https://vercel.com), database hosting utilizes [MongoDB](https://www.mongodb.com/), and analytics are handled with [Google Analytics](https://marketingplatform.google.com/about/analytics/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Dependencies:
+* [Next.js](https://nextjs.org/)
+* [React](https://react.dev/)
+* [react-dom](https://www.npmjs.com/package/react-dom/)
+* [MongoDB](https://www.mongodb.com/)
+* [node-xlsx](https://www.npmjs.com/package/node-xlsx/)
+* [Recharts](https://recharts.org/en-US/)
+* [zod](https://zod.dev/)
+* [otpauth](https://www.npmjs.com/package/otpauth/)
+* [heroicons](https://heroicons.com/)
+* [SendGrid](https://sendgrid.com/en-us)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Disclaimer
+UIGrades is an objective data-based tool for students to visualize past semester courses' grade distributions at the University of Iowa. If you’re using UIGrades to select classes to take, please use it in conjunction with MyUI. Grade distributions are not necessarily an indicator of course difficulty nor a reflection on the instructor or department rewarding those grades. There are several factors that determine the ultimate grade distribution of a course, difficulty being only one. Additionally, UIGrades is not a substitute for an advising appointment. Please see your designated academic advisor for questions about your proposed course schedule.

@@ -1,0 +1,172 @@
+{
+    "changes": [
+        {
+            "version": "5.0.0",
+            "date": "January 2025",
+            "tags": ["Update", "Improvement", "Feature"],
+            "changes": [
+                "Rebuilt UIGrades with Next.js",
+                "Removed Express backend",
+                "Swapped database hoster to MongoDB",
+                "Swapped contact form emailer to SendGrid",
+                "Added search filters",
+                "Revamped user interface",
+                "Replaced pagination with a \"View More\" button on course browsing page",
+                "Changed grade view page to display both unique and aggregate grades on screen",
+                "Swapped out home page components with new ones",
+                "Added median grades"
+            ],
+            "authors": ["KC"],
+            "detailedDescription": "Version 5.0.0 includes a brand new UIGrades repository. The site was rebuilt with major additions such as Next.js and MongoDB. UIGrades also underwent a major visual rework. Other build changes include swapping from Web3Forms to SendGrid and swapping from Chart.js to Recharts. Features include a median grade display as well as search filters and a \"View More\" button for course browsing."
+        },
+        {
+            "version": "4.1.0",
+            "date": "August 2024",
+            "tags": ["Update", "Bug Fix"],
+            "changes": ["Fixed search stutter", "Added new data"],
+            "authors": ["LZ", "KC"],
+            "detailedDescription": "Added debounce to search to prevent stuttering. New data has been added to the site including Winter 23-24 and Spring 24."
+        },
+        {
+            "version": "4.0.1",
+            "date": "March 2024",
+            "tags": ["Bug Fix", "Improvement"],
+            "changes": [
+                "Fixed Safari tablet styling issues",
+                "Added USG contributor"
+            ],
+            "authors": ["LZ"],
+            "detailedDescription": "Added debounce to search to prevent stuttering. New data has been added to the site including Winter 23-24 and Spring 24."
+        },
+        {
+            "version": "4.0.0",
+            "date": "March 2024",
+            "tags": ["Update", "Improvement"],
+            "changes": [
+                "Modern UI change",
+                "Integrated new data (Post Spring 24)",
+                "Updated scripts to handle new data format",
+                "Added disclaimers about data for transparency"
+            ],
+            "authors": ["LZ"],
+            "detailedDescription": "Version 4.0.0 is a major update to the application. The UI has been modernized to be more user friendly with a dark theme applied constantly now. New data has been integrated into the site along with disclaimers regarding privacy conerns with the data."
+        },
+        {
+            "version": "3.4.1",
+            "date": "December 2023",
+            "tags": ["Improvement", "Bug Fix"],
+            "changes": [
+                "Fully converted to TypeScript",
+                "Space key no longer deletes randomly when searching"
+            ],
+            "authors": ["LZ"],
+            "detailedDescription": "Converted all pages to TypeScript. Sometimes when searching, the space key would randomly disappear. This has been fixed."
+        },
+        {
+            "version": "3.3.0",
+            "date": "December 2023",
+            "tags": ["Improvement"],
+            "changes": ["TypeScript components!", "Bolded landing page title"],
+            "authors": ["LZ"],
+            "detailedDescription": "All components have been converted to Typescript components for better clarity of types. This is perfect since some components may share similar prop names even though the props have varying types."
+        },
+        {
+            "version": "3.2.2",
+            "date": "December 2023",
+            "tags": ["Improvement"],
+            "changes": [
+                "Pagination buttons no longer move on mobile",
+                "Added titles for organizers"
+            ],
+            "authors": ["LZ"]
+        },
+        {
+            "version": "3.2.1",
+            "date": "December 2023",
+            "tags": ["Improvement", "Bug Fix"],
+            "changes": [
+                "Fixed \"All Sections\" viewer bug",
+                "Fixed similar courses not rendering after clicking",
+                "New Pagination",
+                "All sections will now aggregate entire page",
+                "Better separation of graph columns",
+                "Refactor about page"
+            ],
+            "authors": ["LZ"],
+            "detailedDescription": "Updated Pagination so users can now see the first and last pages as well as click on them. Viewing entire courses instead of sections will now change the actual page instead of just the graph. Columns in graphs have been revamped to display different grades more clearly. Refactored about page to include contributors from Github. Similar courses wouldn't load even after clicking on it due to rerender not triggering, fixed by simiply changing the useEffect dependency. Fixed all sections viewer by improving logic of rendering."
+        },
+        {
+            "version": "3.1.0",
+            "date": "December 2023",
+            "tags": ["Update", "Feature", "Bug Fix"],
+            "changes": [
+                "Show all section grades",
+                "Removed pie graph (unnecessary)",
+                "Fixed share link pop up message",
+                "Dark theme for pagination",
+                "Moved share button to bottom",
+                "Added toggle between section and course viewer"
+            ],
+            "authors": ["LZ"],
+            "detailedDescription": "Added a feature to show all section grades for a course. Removed the pie graph since it was unnecessary. With this, I've moved the share button to the bottom as well as a new button that allows the user to toggle between section and course viewer. Fixed the share link pop up message that was originally sticking to the top."
+        },
+        {
+            "version": "3.0.1",
+            "date": "December 2023",
+            "tags": ["Update", "Feature"],
+            "changes": ["Updates / changelogs page", "Fullstack application"],
+            "authors": ["LZ"],
+            "detailedDescription": "Added updates / changelogs page to the application. Hosting Backend on render.com"
+        },
+        {
+            "version": "3.0.0",
+            "date": "December 2023",
+            "tags": ["Update", "Improvement"],
+            "changes": [
+                "SQL database",
+                "Node/Express backend",
+                "Page retention in url",
+                "Improved search query retention in url",
+                "Courses now queriable by unique ID",
+                "Mobile dropdown navbar improved",
+                "Similar courses now display course size",
+                "Improved pagination"
+            ],
+            "authors": ["LZ"],
+            "detailedDescription": "Version 3.0.0 is one of the biggest updates to the application. The application now uses a SQL database and a Node/Express backend to query the database. There are many benefits to switching the db to SQL: improved page / search query retention in the url, courses can now be queried by unique ID, similar courses are easier to fetch, and sharing courses is so much easier now since it's just an id. The mobile dropdown navbar has been improved to be more user friendly. Similar courses now display the course size. Pagination has been improved to be more user friendly regarding toggling theme."
+        },
+        {
+            "version": "2.0.0",
+            "date": "November 2023",
+            "tags": ["Improvement"],
+            "changes": ["Remove DexieJS"],
+            "authors": ["LZ"],
+            "detailedDescription": "Removed DexieJS since the database is no longer needed / wasn't working as expected."
+        },
+        {
+            "version": "1.2.1",
+            "date": "November 2023",
+            "tags": ["Improvement", "Bug Fix"],
+            "changes": ["Added Google Analytics", "Fix user search query"],
+            "authors": ["LZ"],
+            "detailedDescription": "Added Google Analytics to track user activity and fixed the user search query bug where some queries were not properly queried."
+        },
+        {
+            "version": "1.2.0",
+            "date": "October 2023",
+            "tags": ["Bug Fix"],
+            "changes": [
+                "Query now saved if back button is hit",
+                "Back button now works when viewing similar courses"
+            ],
+            "authors": ["LZ"]
+        },
+        {
+            "version": "1.0.0",
+            "date": "October 2023",
+            "tags": ["Update"],
+            "changes": ["Host UIGrades on Vercel"],
+            "authors": ["LZ"]
+        }
+    ]
+}

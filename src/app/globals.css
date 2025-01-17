@@ -6,7 +6,9 @@
     --primary-dark-gray: #0a0a0a;
     --secondary-dark-gray: #121212;
     --light-gray: #aaaaaa;
-    --medium-gray: #555555;
+    --primary-medium-gray: #555555;
+    --secondary-medium-gray: #1f1f1f;
+    --medium-light-gray: #808080;
     --off-white: #e8e8e8;
     --hawkeye-gold: #ffcd00;
     --hawkeye-black: #000000;
@@ -28,4 +30,26 @@ textarea {
 input:focus,
 textarea:focus {
     outline: none;
+}
+
+.no-focus:focus {
+    outline: none;
+}
+
+.blinking-cursor {
+    display: inline-block;
+    width: 2px;
+    background-color: var(--hawkeye-gold);
+    animation: blink 0.9s steps(1, start) infinite
+}
+
+@keyframes blink {
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
 }
