@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import { OAuthForm } from "./components/OAuthForm";
 
 export default function LoginPage() {
@@ -7,7 +8,9 @@ export default function LoginPage() {
                 <span className="text-hawkeye-gold">UI</span>Grades Admin Portal
                 - Verification
             </div>
-            <OAuthForm />
+            <Suspense>
+                <OAuthForm />
+            </Suspense>
         </div>
     );
 }

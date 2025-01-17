@@ -27,7 +27,9 @@ export default async function CoursesPage({
                     </span>
                     Courses Found
                 </p>
-                <SearchBar />
+                <Suspense>
+                    <SearchBar />
+                </Suspense>
                 <Suspense fallback={<p>Loading Filters...</p>}>
                     <SearchFilters
                         allSubjects={allSubjects}
