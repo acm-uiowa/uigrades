@@ -1,0 +1,92 @@
+{
+    "organizers": [
+        {
+            "details": {
+                "name": "Quinn Eldridge",
+                "association": "Undergraduate Student Government",
+                "role": "Project Coordinator"
+            },
+            "imageInfo": {
+                "path": "/images/quinn_eldridge.jpg",
+                "alt": "quinn_eldridge"
+            },
+            "externals": {
+                "linkedin": "https://www.linkedin.com/in/quinn-eldridge-606137242/"
+            }
+        },
+        {
+            "details": {
+                "name": "Liao Zhu",
+                "association": "Association for Computing Machinery",
+                "role": "Lead Developer"
+            },
+            "imageInfo": {
+                "path": "/images/liao_zhu.jpg",
+                "alt": "liao_zhu"
+            },
+            "externals": {
+                "linkedin": "https://www.linkedin.com/in/liao-zhu/",
+                "github": "https://github.com/liaozhuzhu"
+            }
+        },
+        {
+            "details": {
+                "name": "Kyle Chi",
+                "association": "Association for Computing Machinery",
+                "role": "Rework Developer, Maintainer"
+            },
+            "imageInfo": {
+                "path": "/images/kyle_chi.jpg",
+                "alt": "kyle_chi"
+            },
+            "externals": {
+                "linkedin": "https://www.linkedin.com/in/kyle-chi/",
+                "github": "https://github.com/kylechi05"
+            }
+        }
+    ],
+    "contributors": [
+        {
+            "name": "Amol Bhagavathi",
+            "external": "https://github.com/AmBha21",
+            "imageInfo": {
+                "path": "/images/amol_bhagavathi.jpg",
+                "alt": "amol_bhagavathi"
+            }
+        },
+        {
+            "name": "Chris Nair",
+            "external": "https://github.com/chrisnair",
+            "imageInfo": {
+                "path": "/images/chris_nair.jpg",
+                "alt": "chris_nair"
+            }
+        },
+        {
+            "name": "Amira Qidwai",
+            "external": "https://www.linkedin.com/in/amira-qidwai-a956a183/",
+            "imageInfo": {
+                "path": "/images/amira_qidwai.jpg",
+                "alt": "amira_qidwai"
+            }
+        }
+    ],
+    "organizations": [
+        {
+            "name": "usg",
+            "external": "https://usg.uiowa.edu/",
+            "imageInfo": {
+                "path": "/images/usg.jpg",
+                "alt": "usg"
+            }
+        },
+        {
+            "name": "acm",
+            "external": "https://acm.org.uiowa.edu/",
+            "imageInfo": {
+                "path": "/images/acm.jpg",
+                "alt": "acm"
+            }
+        }
+    ]
+}

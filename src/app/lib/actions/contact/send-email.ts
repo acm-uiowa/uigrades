@@ -1,4 +1,8 @@
+"use server";
+
 import sgMail from "@sendgrid/mail";
+
+const SENDGRID_API_KEY = process.env.SENDGRID_API_KEY;
 
 export async function sendEmail({
     name,
@@ -9,10 +13,10 @@ export async function sendEmail({
     email: string;
     message: string;
 }) {
-    const SENDGRID_API_KEY = process.env.SENDGRID_API_KEY;
-
     if (!SENDGRID_API_KEY) {
-        throw new Error("Unexpected SendGrid API key error");
+        throw new Error(
+            "Unexpected email error encountered, please direct your message to acm@uiowa.edu",
+        );
     }
 
     sgMail.setApiKey(SENDGRID_API_KEY);
@@ -33,7 +37,7 @@ export async function sendEmail({
         };
     } catch {
         throw new Error(
-            "Unexpected email error encountered, please direct your message to acm@uiowa.edu or kyle-chi@uiowa.edu",
+            "Unexpected email error encountered, please direct your message to acm@uiowa.edu",
         );
     }
 }
