@@ -1,0 +1,310 @@
+SUBJECT_COURSE_SECTION,COURSE_TITLE,PRIMARY_INSTRUCTOR_NAME,SECONDARY_INSTRUCTOR_NAME,A_PLUS,A,A_MINUS,B_PLUS,B,B_MINUS,C_PLUS,C,C_MINUS,D_PLUS,D,D_MINUS,F,WITHDRAWN,SEMESTER,YEAR,IS_NEW
+ACCT:2100:0001,Introduction to Financial Accounting,Christian Hutzler - Primary Instructor,,-,4.0,-,-,6.0,-,-,1.0,-,-,0.0,-,-,0.0,Summer,2023,1
+ACCT:3020:0EXW,Financial Accounting and Reporting,Heidi Hansel - Primary Instructor,,-,14.0,-,-,13.0,-,-,4.0,-,-,0.0,-,-,1.0,Summer,2023,1
+ACCT:3600:0EXW,Accounting Systems & Analytics,Adam Meeker - Primary Instructor,,-,8.0,-,-,8.0,-,-,5.0,-,-,0.0,-,-,0.0,Summer,2023,1
+ACCT:4100:0EXW,Auditing,Kevin Den Adel - Primary Instructor,,-,5.0,-,-,9.0,-,-,2.0,-,-,1.0,-,-,0.0,Summer,2023,1
+ACCT:4300:0EXW,Accounting Ethics and Law,Mary Murphy - Primary Instructor,,-,6.0,-,-,7.0,-,-,0.0,-,-,0.0,-,-,1.0,Summer,2023,1
+AFAM:2500:0EXW,Black Culture and Experience,Armando Bryson - Primary Instructor,Venise Berry - Course Supervisor,-,17.0,-,-,6.0,-,-,3.0,-,-,4.0,-,-,0.0,Summer,2023,1
+AMST:2025:0EXW,Diversity in American Culture,John Tappen - Primary Instructor,Thomas Oates - Course Supervisor,-,6.0,-,-,7.0,-,-,2.0,-,-,4.0,-,-,2.0,Summer,2023,1
+ANTH:1301:0EXW,Human Origins,Logan Moore - Primary Instructor,Katina Lillios - Course Supervisor,-,10.0,-,-,10.0,-,-,3.0,-,-,0.0,-,-,1.0,Summer,2023,1
+ANTH:2100:0EXW,Anthropology & Contemporary World Problm,Caleb Klipowicz - Primary Instructor,Katina Lillios - Course Supervisor,-,13.0,-,-,8.0,-,-,2.0,-,-,1.0,-,-,0.0,Summer,2023,1
+ASTR:1070:000B,"Stars, Galaxies, and the Universe",Matthew Millard - Primary Instructor,,-,5.0,-,-,4.0,-,-,4.0,-,-,1.0,-,-,0.0,Summer,2023,1
+AT:3060:0001,Advanced Anatomy for Athletic Training,Martine Dunnwald - Primary Instructor,,-,3.0,-,-,5.0,-,-,3.0,-,-,0.0,-,-,0.0,Summer,2023,1
+AT:4000:0001,Foundations Athletic Training Practice,Megan Lundstrom - Primary Instructor,,-,4.0,-,-,7.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+AT:4075:0001,Medical Emergency Techniques,Jennifer Rogers - Primary Instructor,,-,4.0,-,-,7.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+AT:5000:0001,Pathology/Assessment Non-Orthopedic,Megan Lundstrom - Primary Instructor,,-,5.0,-,-,6.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+AT:5075:0001,Diagnostic Imaging and Lab Studies,Megan Lundstrom - Primary Instructor,,-,5.0,-,-,5.0,-,-,1.0,-,-,0.0,-,-,0.0,Summer,2023,1
+AT:5200:0001,Pharmacology in Sports Medicine,Kara Gange - Primary Instructor,,-,10.0,-,-,1.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+BAIS:1500:0EXW,Business Computing Essentials,Yvonne Galusha - Primary Instructor,,-,23.0,-,-,8.0,-,-,2.0,-,-,6.0,-,-,1.0,Summer,2023,1
+BAIS:2800:0EXT,Foundations of Business Analytics,Junho Yoon - Primary Instructor,,-,17.0,-,-,22.0,-,-,4.0,-,-,0.0,-,-,0.0,Summer,2023,1
+BAIS:3000:0EXW,Operations Management,Chengyue Huang - Primary Instructor,,-,21.0,-,-,18.0,-,-,4.0,-,-,2.0,-,-,0.0,Summer,2023,1
+BAIS:3005:0EXW,Information Systems,Kristy Walker - Primary Instructor,,-,23.0,-,-,11.0,-,-,4.0,-,-,1.0,-,-,0.0,Summer,2023,1
+BAIS:6040:0EXP,Data Programming in Python,Adam Meeker - Primary Instructor,,-,35.0,-,-,3.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+BAIS:6050:0EXP,Data Management and Visual Analytics,Murugan Nambiar - Primary Instructor,,-,28.0,-,-,8.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+BAIS:6050:0EXT,Data Management and Visual Analytics,Kristina Bigsby - Primary Instructor,,-,16.0,-,-,6.0,-,-,0.0,-,-,1.0,-,-,0.0,Summer,2023,1
+BAIS:6070:0EXP,Data Science,Zachary Veigulis - Primary Instructor,,-,32.0,-,-,7.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+BAIS:6070:0EXT,Data Science,Bou Gazley - Primary Instructor,,-,13.0,-,-,1.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+BAIS:6105:0EXP,Social Analytics,Patrick Fan - Primary Instructor,,-,15.0,-,-,9.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+BAIS:6120:0EXP,Analytics Experience,Jarren Santos - Primary Instructor,,-,21.0,-,-,1.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+BAIS:6210:0EXP,Data Leadership and Management,Kristy Walker - Primary Instructor,,-,14.0,-,-,2.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+BAIS:9110:0EXP,Advanced Analytics,Justin Goodson - Primary Instructor,,-,30.0,-,-,8.0,-,-,0.0,-,-,1.0,-,-,0.0,Summer,2023,1
+BAIS:9220:0EX8,Introduction to Information Systems,Pierre-Majorique Leger - Primary Instructor,Cristina Turchet - Course Supervisor,-,6.0,-,-,5.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+BAIS:9300:0900,Innovations in Technology,Jim Chaffee - Primary Instructor,,-,23.0,-,-,1.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+BIOL:1412:0A01,Diversity of Form and Function,Mark Holbrook - Primary Instructor,,-,1.0,-,-,5.0,-,-,4.0,-,-,1.0,-,-,1.0,Summer,2023,1
+BIOL:2512:0EXW,Fundamental Genetics,Angela Cordle - Primary Instructor,,-,39.0,-,-,20.0,-,-,4.0,-,-,1.0,-,-,1.0,Summer,2023,1
+BIOS:4110:0001,General Biostatistics,Gideon Zamba - Primary Instructor,,-,16.0,-,-,3.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+BIOS:4120:0EXW,Introduction to Biostatistics,Scott Cleven - Primary Instructor,Jacob Oleson - Course Supervisor,-,29.0,-,-,8.0,-,-,3.0,-,-,2.0,-,-,1.0,Summer,2023,1
+BMB:3110:0EXW,Biochemistry,William Hacker - Primary Instructor,,-,15.0,-,-,48.0,-,-,22.0,-,-,15.0,-,-,8.0,Summer,2023,1
+BUS:3000:0EXV,Business Communication and Protocol,Stephanie Batterson - Primary Instructor,,-,7.0,-,-,8.0,-,-,0.0,-,-,0.0,-,-,1.0,Summer,2023,1
+BUS:3000:0EXW,Business Communication and Protocol,Tobias Veeder - Primary Instructor,,-,5.0,-,-,10.0,-,-,2.0,-,-,2.0,-,-,0.0,Summer,2023,1
+BUS:3800:0EX4,Business Writing,Elizabeth Tomlinson - Primary Instructor,Anna Fiumicetti - Course Supervisor,-,21.0,-,-,6.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+CHEM:1110:000A,Principles of Chemistry I,Jeffrey Elbert - Primary Instructor,,-,8.0,-,-,5.0,-,-,0.0,-,-,1.0,-,-,0.0,Summer,2023,1
+CHEM:1120:000A,Principles of Chemistry II,Elbert Campbell - Primary Instructor,,-,12.0,-,-,9.0,-,-,3.0,-,-,0.0,-,-,0.0,Summer,2023,1
+CHEM:2210:0001,Organic Chemistry I,Rebecca Laird - Primary Instructor,,-,5.0,-,-,8.0,-,-,15.0,-,-,3.0,-,-,0.0,Summer,2023,1
+CHEM:2210:0002,Organic Chemistry I,Rebecca Laird - Primary Instructor,,-,8.0,-,-,11.0,-,-,8.0,-,-,3.0,-,-,0.0,Summer,2023,1
+CHEM:2220:0001,Organic Chemistry II,Shuvendu Das - Primary Instructor,,-,10.0,-,-,16.0,-,-,3.0,-,-,2.0,-,-,0.0,Summer,2023,1
+CHEM:2220:0002,Organic Chemistry II,Shuvendu Das - Primary Instructor,,-,8.0,-,-,10.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+CHEM:2410:000A,Organic Chemistry Laboratory,Mouna Maalouf - Primary Instructor,,-,5.0,-,-,6.0,-,-,3.0,-,-,1.0,-,-,0.0,Summer,2023,1
+CINE:1150:0EXW,Intro to Screenwriting for Nonmajors,Anna Morrison - Primary Instructor,,-,25.0,-,-,3.0,-,-,1.0,-,-,0.0,-,-,0.0,Summer,2023,1
+CLSA:1181:0EXV,Ancient Medicine,Peter Miller - Primary Instructor,Craig Gibson - Course Supervisor,-,6.0,-,-,9.0,-,-,2.0,-,-,0.0,-,-,0.0,Summer,2023,1
+CLSA:2016:0EX4,Classical Mythology,Tara Welch - Primary Instructor,Anna Fiumicetti - Course Supervisor,-,32.0,-,-,10.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+CLSA:2016:0EXW,Classical Mythology,Luke Perez - Primary Instructor,Craig Gibson - Course Supervisor,-,6.0,-,-,5.0,-,-,3.0,-,-,4.0,-,-,5.0,Summer,2023,1
+CLSA:3742:0EXV,Word Power: Building English Vocabulary,Ryan Tribble - Primary Instructor,Craig Gibson - Course Supervisor,-,2.0,-,-,3.0,-,-,4.0,-,-,2.0,-,-,2.0,Summer,2023,1
+CLSA:3750:0EXW,Medical and Technical Terminology,Rachel Rucker - Primary Instructor,Craig Gibson - Course Supervisor,-,8.0,-,-,6.0,-,-,2.0,-,-,1.0,-,-,0.0,Summer,2023,1
+COMM:1816:0EXV,Business and Professional Communication,Michala Zilkey - Primary Instructor,Kembrew McLeod - Course Supervisor,-,14.0,-,-,8.0,-,-,1.0,-,-,1.0,-,-,0.0,Summer,2023,1
+COMM:1818:0EXW,Communication Skills for Leadership,Ebenezer Aidoo - Primary Instructor,Kembrew McLeod - Course Supervisor,-,7.0,-,-,12.0,-,-,3.0,-,-,1.0,-,-,1.0,Summer,2023,1
+CPH:5100:0EXW,Introduction to Public Health,Anjali Deshpande - Primary Instructor,,-,20.0,-,-,0.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+CRIM:1410:0EXW,Introduction to Criminology,Asa Madison - Primary Instructor,Stephanie Dipietro - Course Supervisor,-,6.0,-,-,6.0,-,-,11.0,-,-,2.0,-,-,1.0,Summer,2023,1
+CRIM:3250:0EXW,"Drugs, Deviance, and Social Control",Michaela Ruppert - Primary Instructor,,-,3.0,-,-,12.0,-,-,9.0,-,-,3.0,-,-,2.0,Summer,2023,1
+CS:1210:0EX1,Computer Science I: Fundamentals,Maaz Musa - Primary Instructor,Kevin Lillis - Course Supervisor,-,11.0,-,-,7.0,-,-,7.0,-,-,3.0,-,-,1.0,Summer,2023,1
+CS:1210:0EX2,Computer Science I: Fundamentals,Laisa Laisa Sabnam - Primary Instructor,Kevin Lillis - Course Supervisor,-,8.0,-,-,5.0,-,-,3.0,-,-,3.0,-,-,0.0,Summer,2023,1
+CS:2210:0001,Discrete Structures,Anthony Delaubenfels - Primary Instructor,,-,5.0,-,-,2.0,-,-,11.0,-,-,5.0,-,-,2.0,Summer,2023,1
+CS:2230:0A01,Computer Science II: Data Structures,David Aites - Primary Instructor,Alan McKay - Course Supervisor,-,3.0,-,-,5.0,-,-,2.0,-,-,2.0,-,-,2.0,Summer,2023,1
+CS:3330:0001,Algorithms,Denise Szecsei - Primary Instructor,,-,0.0,-,-,2.0,-,-,8.0,-,-,1.0,-,-,1.0,Summer,2023,1
+CSD:5223:0001,Pediatric Feeding & Swallowing Disorders,Scott Dailey - Primary Instructor,,-,20.0,-,-,0.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+CSD:5237:0622,Cleft Palate and Related Disorders,Scott Dailey - Primary Instructor,,-,16.0,-,-,0.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+CSED:2081:0EXU,Making a Vocational-Educational Choice,Molly Rechkemmer - Primary Instructor,,-,9.0,-,-,3.0,-,-,0.0,-,-,0.0,-,-,2.0,Summer,2023,1
+CSED:4110:0EXV,Psychology of Food and Mood,Emily Santi - Primary Instructor,,-,24.0,-,-,5.0,-,-,1.0,-,-,0.0,-,-,0.0,Summer,2023,1
+CSED:4113:0EXV,"Sleep, Sleep Depriv & Sleep Disorders",Cher Stephenson - Primary Instructor,,-,12.0,-,-,8.0,-,-,3.0,-,-,1.0,-,-,1.0,Summer,2023,1
+CSED:4145:0EXW,Marriage and Family Interaction,Kayla Fitzke - Primary Instructor,,-,6.0,-,-,4.0,-,-,2.0,-,-,0.0,-,-,1.0,Summer,2023,1
+CSED:4174:0EXV,Positive Psychology,Nashae Julian - Primary Instructor,,-,18.0,-,-,3.0,-,-,1.0,-,-,2.0,-,-,0.0,Summer,2023,1
+CSED:4176:0EXW,Child Abuse: Assessmnt Intervntn Advocy,Kelson Warner - Primary Instructor,Noel Estrada Hernandez - Course Supervisor,-,10.0,-,-,6.0,-,-,3.0,-,-,3.0,-,-,0.0,Summer,2023,1
+CSED:4185:0EXV,Introduction to Substance Abuse,Tevin Middleton - Primary Instructor,Noel Estrada Hernandez - Course Supervisor,-,14.0,-,-,9.0,-,-,2.0,-,-,1.0,-,-,0.0,Summer,2023,1
+CSED:4194:0EXW,Interpersonal Effectiveness,Derrick Clark - Primary Instructor,,-,9.0,-,-,4.0,-,-,3.0,-,-,4.0,-,-,0.0,Summer,2023,1
+CSED:4197:0EXV,Citizenship in a Multicultural Society,Carrie Wilbert - Primary Instructor,Noel Estrada Hernandez - Course Supervisor,-,11.0,-,-,3.0,-,-,2.0,-,-,1.0,-,-,0.0,Summer,2023,1
+CSED:4199:0EXV,Counseling for Related Professions,John Wadsworth - Primary Instructor,,-,12.0,-,-,5.0,-,-,3.0,-,-,0.0,-,-,0.0,Summer,2023,1
+CSI:1213:0EXM,Special Topics I,Eric Moy - Primary Instructor,,-,18.0,-,-,1.0,-,-,1.0,-,-,1.0,-,-,0.0,Summer,2023,1
+CW:1800:0001,Creative Writing Studio Workshop,Oso Guardiola Guaderrama - Primary Instructor,,-,17.0,-,-,3.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+CW:7870:0002,Fiction Workshop,Claire Lombardo - Primary Instructor,,-,11.0,-,-,0.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+ECON:1100:0EXW,Principles of Microeconomics,Alexandra Nica - Primary Instructor,,-,12.0,-,-,10.0,-,-,3.0,-,-,2.0,-,-,1.0,Summer,2023,1
+ECON:1200:0EXW,Principles of Macroeconomics,Alexandra Nica - Primary Instructor,,-,7.0,-,-,13.0,-,-,6.0,-,-,9.0,-,-,2.0,Summer,2023,1
+ECON:3325:0EXW,Personnel Economics,Mary Knudson - Primary Instructor,,-,14.0,-,-,11.0,-,-,3.0,-,-,0.0,-,-,2.0,Summer,2023,1
+ECON:3345:0EX4,Global Economics and Business,Eric Olson - Primary Instructor,Anna Fiumicetti - Course Supervisor,-,22.0,-,-,10.0,-,-,1.0,-,-,0.0,-,-,0.0,Summer,2023,1
+EDTL:2821:0EXW,Oral Interpretation,Kathleen Hession - Primary Instructor,,-,12.0,-,-,1.0,-,-,0.0,-,-,0.0,-,-,1.0,Summer,2023,1
+EDTL:3062:0EXV,Learning Communities,Steven Triplett - Primary Instructor,Amy Mayer - Course Supervisor,-,19.0,-,-,5.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+EDTL:3062:0EXW,Learning Communities,Lisa Stevenson - Primary Instructor,Amy Mayer - Course Supervisor,-,13.0,-,-,0.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+EDTL:3063:0EXV,Creating Classrooms for Tching & Lrning,Debra Wretman - Primary Instructor,Amy Mayer - Course Supervisor,-,24.0,-,-,1.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+EDTL:3063:0EXW,Creating Classrooms for Tching & Lrning,Ann Browning - Primary Instructor,Amy Mayer - Course Supervisor,-,12.0,-,-,1.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+EDTL:3382:0EXW,Language and Learning,Hasnaa El Hannach Ben Hammou - Primary Instructor,Erika Johnson - Course Supervisor,-,10.0,-,-,0.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+EDTL:4900:0EXV,Foundations of Special Education,Pam Ries - Primary Instructor,,-,17.0,-,-,4.0,-,-,1.0,-,-,0.0,-,-,0.0,Summer,2023,1
+EDTL:4900:0EXW,Foundations of Special Education,Pam Ries - Primary Instructor,,-,15.0,-,-,3.0,-,-,2.0,-,-,3.0,-,-,1.0,Summer,2023,1
+EDTL:4934:0EXW,Parent-Teacher Communication,Michelle Hinzman - Primary Instructor,,-,9.0,-,-,4.0,-,-,0.0,-,-,1.0,-,-,0.0,Summer,2023,1
+EDTL:5085:0EXW,Technology Integration in K-12 Schools,Kaylah Holland - Primary Instructor,Will Coghill-Behrends - Course Supervisor,-,14.0,-,-,0.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+EDTL:6764:0EXW,STEM Extracurricular Exp & Capstone,Ted Neal - Primary Instructor,,-,10.0,-,-,1.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+EES:2831:0001,Geologic Field Methods,Bill McClelland - Primary Instructor,,-,9.0,-,-,10.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+EES:4832:0001,Geologic Field Analysis,Bill McClelland - Primary Instructor,,-,8.0,-,-,4.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+ENGL:1200:0006,The Interpretation of Literature,Grace Morse - Primary Instructor,Lafayette Adams - Course Supervisor,-,9.0,-,-,4.0,-,-,1.0,-,-,3.0,-,-,0.0,Summer,2023,1
+ENGL:1200:0EXX,The Interpretation of Literature,Kathleen Shaughnessy - Primary Instructor,Lafayette Adams - Course Supervisor,-,23.0,-,-,1.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+ENGL:1200:0EXZ,The Interpretation of Literature,Laurel Carlson - Primary Instructor,Lafayette Adams - Course Supervisor,-,12.0,-,-,9.0,-,-,1.0,-,-,1.0,-,-,0.0,Summer,2023,1
+ENGR:2110:0EXU,Statics,Kamran Samani - Primary Instructor,,-,10.0,-,-,11.0,-,-,5.0,-,-,1.0,-,-,0.0,Summer,2023,1
+ENGR:2120:0EXW,Electrical Circuits,Anton Kruger - Primary Instructor,,-,1.0,-,-,3.0,-,-,6.0,-,-,5.0,-,-,4.0,Summer,2023,1
+ENGR:2130:0EX4,Thermodynamics,H Udaykumar - Primary Instructor,Stephanie Schnicker - Course Supervisor,-,11.0,-,-,2.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+ENGR:2130:0EXW,Thermodynamics,David Rethwisch - Primary Instructor,,-,9.0,-,-,11.0,-,-,7.0,-,-,3.0,-,-,1.0,Summer,2023,1
+ENGR:2710:0EXW,Dynamics,Paul Hanley - Primary Instructor,,-,18.0,-,-,8.0,-,-,1.0,-,-,1.0,-,-,0.0,Summer,2023,1
+ENGR:2720:0EXU,Materials Science,Shaoping Xiao - Primary Instructor,,-,27.0,-,-,16.0,-,-,1.0,-,-,1.0,-,-,0.0,Summer,2023,1
+ENGR:2750:0EXW,Mechanics of Deformable Bodies,Colby Swan - Primary Instructor,,-,8.0,-,-,9.0,-,-,4.0,-,-,4.0,-,-,5.0,Summer,2023,1
+ENTR:1350:0EXW,Foundations in Entrepreneurship,Phyllis Harris - Primary Instructor,,-,24.0,-,-,5.0,-,-,1.0,-,-,1.0,-,-,0.0,Summer,2023,1
+ENTR:2000:0EXX,Entrepreneurship and Innovation,Wade Steenhoek - Primary Instructor,,-,27.0,-,-,8.0,-,-,2.0,-,-,1.0,-,-,1.0,Summer,2023,1
+ENTR:3100:0EXW,Entrepreneurial Finance,Richard McCarty - Primary Instructor,,-,7.0,-,-,11.0,-,-,7.0,-,-,0.0,-,-,0.0,Summer,2023,1
+ENTR:3200:0EXW,Entrepreneurial Marketing,Kevin Krause - Primary Instructor,,-,5.0,-,-,12.0,-,-,8.0,-,-,1.0,-,-,0.0,Summer,2023,1
+ENTR:4000:0EXX,Topics in Entrepreneurship,Joseph Sulentic - Primary Instructor,,-,8.0,-,-,12.0,-,-,1.0,-,-,1.0,-,-,0.0,Summer,2023,1
+ENTR:4200:0EXA,Entrepreneurship: Business Consulting,Kimm Harris - Primary Instructor,,-,12.0,-,-,5.0,-,-,1.0,-,-,0.0,-,-,1.0,Summer,2023,1
+ENTR:4400:0EXW,Managing the Growth Business,Rob Gettemy - Primary Instructor,,-,6.0,-,-,5.0,-,-,1.0,-,-,0.0,-,-,1.0,Summer,2023,1
+ENTR:9100:0EXO,Entrepreneurship and Innovation,David Hensley - Primary Instructor,,-,14.0,-,-,6.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+EPID:4400:0EXW,Epidemiology I: Principles,Anjali Deshpande - Primary Instructor,,-,7.0,-,-,8.0,-,-,2.0,-,-,0.0,-,-,1.0,Summer,2023,1
+EPID:5570:0001,Zoonotic Diseases,Christine Petersen - Primary Instructor,,-,9.0,-,-,3.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+EPLS:4180:0002,Human Relations for the Classroom Teachr,DeeAnn Grove - Primary Instructor,,-,18.0,-,-,4.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+EPLS:5090:0EXW,Instr Coaching for Teaching Excellence,Ryan Rydstrom - Primary Instructor,Will Coghill-Behrends - Course Supervisor,-,14.0,-,-,0.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+EPLS:6260:0EXW,Contemp Mgmt Strategies PreK-12 Principl,Lucas Ptacek - Primary Instructor,,-,13.0,-,-,0.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+EPLS:6319:0EXY,Human Resources Leadership,Lisa Stevenson - Primary Instructor,,-,11.0,-,-,1.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+EPLS:6321:0WKA,Social Advocacy Summit,Leslie Locke - Primary Instructor,,-,13.0,-,-,0.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+EPLS:6336:0EXV,Impact of College on Students,Mirra Anson - Primary Instructor,,-,12.0,-,-,0.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+EPLS:6381:0EXW,Analysis and Appraisal of Curriculum,Leslie Locke - Primary Instructor,,-,16.0,-,-,0.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+EPLS:7432:0EXW,Multicultural Initiatives,Sherry Watt - Primary Instructor,,-,14.0,-,-,0.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+EVNT:3185:0EX4,Topics in Event Management,Tracy Hufford - Primary Instructor,Anna Fiumicetti - Course Supervisor,-,36.0,-,-,0.0,-,-,0.0,-,-,0.0,-,-,1.0,Summer,2023,1
+FIN:3000:0EX3,Introductory Financial Management,Kelly Welch - Primary Instructor,Anna Fiumicetti - Course Supervisor,-,15.0,-,-,15.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+FIN:3000:0EX4,Introductory Financial Management,Keith Jones - Primary Instructor,Stephanie Schnicker - Course Supervisor,-,10.0,-,-,14.0,-,-,7.0,-,-,0.0,-,-,0.0,Summer,2023,1
+FIN:3000:0EXT,Introductory Financial Management,Heidi Dybevik - Primary Instructor,,-,13.0,-,-,20.0,-,-,7.0,-,-,3.0,-,-,0.0,Summer,2023,1
+FIN:3000:0EXW,Introductory Financial Management,Haocheng Xu - Primary Instructor,,-,24.0,-,-,19.0,-,-,3.0,-,-,0.0,-,-,0.0,Summer,2023,1
+FIN:3200:0EXW,Investment Management,Geoffrey Vanderpal - Primary Instructor,,-,19.0,-,-,1.0,-,-,0.0,-,-,0.0,-,-,1.0,Summer,2023,1
+FIN:3300:0EXW,Corporate Finance,Mahmut Ilerisoy - Primary Instructor,,-,5.0,-,-,5.0,-,-,2.0,-,-,0.0,-,-,3.0,Summer,2023,1
+FIN:3400:0EXW,Principles of Risk Management & Ins,Susan Haack - Primary Instructor,,-,9.0,-,-,5.0,-,-,4.0,-,-,0.0,-,-,2.0,Summer,2023,1
+FIN:9230:0EXO,Real Estate Finance and Investments,Brent Pritchard - Primary Instructor,,-,19.0,-,-,12.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+FIN:9350:0EXO,Wealth Management,Erik Lie - Primary Instructor,,-,14.0,-,-,7.0,-,-,3.0,-,-,0.0,-,-,0.0,Summer,2023,1
+FREN:1006:0EXV,Global Sports and National Cultures,William Osei-Aborah - Primary Instructor,Roxanna Curto - Course Supervisor,-,22.0,-,-,7.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+FREN:1006:0EXW,Global Sports and National Cultures,Emily Wieder - Primary Instructor,Roxanna Curto - Course Supervisor,-,10.0,-,-,8.0,-,-,3.0,-,-,7.0,-,-,0.0,Summer,2023,1
+GEOG:1070:0002,Contemporary Environmental Issues,Tallie Foster - Primary Instructor,David Bennett - Course Supervisor,-,14.0,-,-,6.0,-,-,1.0,-,-,4.0,-,-,1.0,Summer,2023,1
+GEOG:1070:0EXW,Contemporary Environmental Issues,Matthew Kucmanic - Primary Instructor,David Bennett - Course Supervisor,-,14.0,-,-,6.0,-,-,2.0,-,-,2.0,-,-,1.0,Summer,2023,1
+GWSS:1310:0EXW,Gender and Society,Jay Sorensen - Primary Instructor,Stephanie Dipietro - Course Supervisor,-,7.0,-,-,4.0,-,-,2.0,-,-,2.0,-,-,0.0,Summer,2023,1
+HHP:1100:0EXU,Human Anatomy,Jennifer Rogers - Primary Instructor,,-,1.0,-,-,9.0,-,-,13.0,-,-,4.0,-,-,5.0,Summer,2023,1
+HHP:1100:0EXW,Human Anatomy,Jennifer Rogers - Primary Instructor,,-,6.0,-,-,10.0,-,-,9.0,-,-,8.0,-,-,3.0,Summer,2023,1
+HHP:1300:0EXW,Fundamentals of Human Physiology,Aaron Schneider - Primary Instructor,,-,1.0,-,-,6.0,-,-,11.0,-,-,6.0,-,-,6.0,Summer,2023,1
+HHP:2200:0EXU,Physical Activity and Health,Megan Lewey - Primary Instructor,,-,10.0,-,-,10.0,-,-,4.0,-,-,4.0,-,-,0.0,Summer,2023,1
+HHP:2200:0EXW,Physical Activity and Health,Amy Fletcher - Primary Instructor,,-,4.0,-,-,6.0,-,-,11.0,-,-,4.0,-,-,1.0,Summer,2023,1
+HHP:2280:0EXW,Cultural Competency in Health Promotion,Gayle Walter - Primary Instructor,,-,30.0,-,-,4.0,-,-,1.0,-,-,1.0,-,-,0.0,Summer,2023,1
+HHP:2310:0EXW,Nutrition and Health,Katherine Mellen - Primary Instructor,,-,4.0,-,-,9.0,-,-,16.0,-,-,2.0,-,-,0.0,Summer,2023,1
+HHP:3030:0EXW,Lifestyle Medicine,Erin Litton - Primary Instructor,,-,14.0,-,-,8.0,-,-,1.0,-,-,1.0,-,-,1.0,Summer,2023,1
+HHP:3050:0EXW,Obesity,Lucas Carr - Primary Instructor,,-,5.0,-,-,6.0,-,-,8.0,-,-,2.0,-,-,2.0,Summer,2023,1
+HHP:3105:0EXW,Anatomy for Human Physiology,Ray Fagenbaum - Primary Instructor,,-,5.0,-,-,6.0,-,-,1.0,-,-,2.0,-,-,2.0,Summer,2023,1
+HHP:3300:0EXW,Human Growth and Motor Development,Kelli Taeger - Primary Instructor,,-,13.0,-,-,12.0,-,-,6.0,-,-,4.0,-,-,1.0,Summer,2023,1
+HHP:3400:0EXW,Applied Exercise Physiology,Shawn Flanagan - Primary Instructor,,-,4.0,-,-,7.0,-,-,5.0,-,-,1.0,-,-,0.0,Summer,2023,1
+HHP:3500:0EXW,Human Physiology,Clayton Peterson - Primary Instructor,,-,10.0,-,-,8.0,-,-,6.0,-,-,1.0,-,-,0.0,Summer,2023,1
+HHP:4390:0EXW,Understanding Human Disease,Shawn Flanagan - Primary Instructor,,-,5.0,-,-,12.0,-,-,9.0,-,-,0.0,-,-,0.0,Summer,2023,1
+HHP:4440:0EXW,Physiology of Nutrition,Shawn Flanagan - Primary Instructor,,-,3.0,-,-,7.0,-,-,2.0,-,-,2.0,-,-,0.0,Summer,2023,1
+HIST:1016:0001,The History That Made Our World,Jessica Werneke - Primary Instructor,,-,11.0,-,-,3.0,-,-,1.0,-,-,1.0,-,-,2.0,Summer,2023,1
+HIST:1040:0EX1,Diversity in History,Rachael Pasierowska - Primary Instructor,,-,9.0,-,-,4.0,-,-,1.0,-,-,0.0,-,-,0.0,Summer,2023,1
+HIST:2280:0EXW,Introduction to Latina/o/x Studies,Jorge Guerra - Primary Instructor,,-,18.0,-,-,0.0,-,-,6.0,-,-,0.0,-,-,3.0,Summer,2023,1
+HMP:4000:0EXW,Introduction to U.S. Health Care System,Hari Sharma - Primary Instructor,,-,24.0,-,-,7.0,-,-,0.0,-,-,1.0,-,-,0.0,Summer,2023,1
+HMP:6150:0002,MHA Integrative Capstone,Ken Anderson - Primary Instructor,,-,11.0,-,-,0.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+IS:2020:0EXV,World Events Today!,Ari Ariel - Primary Instructor,,-,23.0,-,-,4.0,-,-,0.0,-,-,1.0,-,-,1.0,Summer,2023,1
+IS:2020:0EXW,World Events Today!,Peter Gerlach - Primary Instructor,,-,27.0,-,-,3.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+ITAL:1050:0EX3,Italy Live,Michela Marin - Primary Instructor,Stephanie Schnicker - Course Supervisor,-,16.0,-,-,6.0,-,-,4.0,-,-,1.0,-,-,0.0,Summer,2023,1
+ITAL:1050:0EX4,Italy Live,Michela Marin - Primary Instructor,Anna Fiumicetti - Course Supervisor,-,8.0,-,-,15.0,-,-,3.0,-,-,0.0,-,-,0.0,Summer,2023,1
+ITAL:1050:0EX5,Italy Live,Michela Marin - Primary Instructor,Anna Fiumicetti - Course Supervisor,-,12.0,-,-,7.0,-,-,6.0,-,-,0.0,-,-,0.0,Summer,2023,1
+JMC:1100:0EXV,Introduction to Media Effects,Ge Zhu - Primary Instructor,,-,22.0,-,-,8.0,-,-,4.0,-,-,0.0,-,-,0.0,Summer,2023,1
+JMC:1500:0EXW,Introduction to Social Media,Tessa Adams - Primary Instructor,,-,22.0,-,-,10.0,-,-,2.0,-,-,1.0,-,-,0.0,Summer,2023,1
+JMC:3530:0EXW,Social Media Marketing,Heather Spangler - Primary Instructor,,-,18.0,-,-,10.0,-,-,3.0,-,-,2.0,-,-,1.0,Summer,2023,1
+JMC:5243:0EXW,Copywriting for Strategic Communication,Eric Nelson - Primary Instructor,,-,17.0,-,-,0.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+LS:2002:0EXV,Career Leadership Academy Part 1,Susie Regan - Primary Instructor,Matt Augeri - Course Supervisor,-,10.0,-,-,3.0,-,-,3.0,-,-,1.0,-,-,0.0,Summer,2023,1
+MATH:1350:0EXA,Quantitative Reasoning for Business,Paria Karimi Kousalari - Primary Instructor,Ryan Kinser - Course Supervisor,-,8.0,-,-,7.0,-,-,2.0,-,-,1.0,-,-,0.0,Summer,2023,1
+MATH:1850:0EXA,Calculus I,Valentyna Bezugla - Primary Instructor,,-,6.0,-,-,9.0,-,-,5.0,-,-,1.0,-,-,3.0,Summer,2023,1
+MBA:8110:0EXN,Marketing Management,Julie Zielinski - Primary Instructor,,-,13.0,-,-,13.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+MBA:8120:0EXN,Management in Organizations,Kevin Keith - Primary Instructor,,-,24.0,-,-,7.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+MBA:8120:0EXO,Management in Organizations,Sue Dustin - Primary Instructor,,-,16.0,-,-,2.0,-,-,0.0,-,-,1.0,-,-,0.0,Summer,2023,1
+MBA:8120:0EXR,Management in Organizations,Kelley Burgess - Primary Instructor,,-,35.0,-,-,4.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+MBA:8130:0EXO,Business Communication,Nickolas Westergaard - Primary Instructor,,-,20.0,-,-,5.0,-,-,1.0,-,-,0.0,-,-,0.0,Summer,2023,1
+MBA:8140:0EXN,Corporate Financial Reporting,Randy Menke - Primary Instructor,,-,12.0,-,-,12.0,-,-,0.0,-,-,1.0,-,-,0.0,Summer,2023,1
+MBA:8140:0EXO,Corporate Financial Reporting,Greg Hall - Primary Instructor,,-,21.0,-,-,6.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+MBA:8140:0EXR,Corporate Financial Reporting,Roy Pettibone - Primary Instructor,,-,9.0,-,-,8.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+MBA:8150:0EXC,Data and Decisions,Benjamin Margolin - Primary Instructor,,-,12.0,-,-,5.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+MBA:8150:0EXN,Data and Decisions,Michael Loewen - Primary Instructor,,-,20.0,-,-,8.0,-,-,1.0,-,-,1.0,-,-,0.0,Summer,2023,1
+MBA:8150:0EXO,Data and Decisions,Benjamin Margolin - Primary Instructor,,-,9.0,-,-,11.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+MBA:8160:0EXN,Managerial Economics,Anne Villamil - Primary Instructor,,-,25.0,-,-,10.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+MBA:8160:0EXO,Managerial Economics,Donald Szeszycki - Primary Instructor,,-,15.0,-,-,6.0,-,-,3.0,-,-,0.0,-,-,0.0,Summer,2023,1
+MBA:8180:0EXN,Managerial Finance,Mahmut Ilerisoy - Primary Instructor,,-,25.0,-,-,13.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+MBA:8180:0EXO,Managerial Finance,Art Durnev - Primary Instructor,,-,24.0,-,-,11.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+MBA:8240:0EXN,Operations and Supply Chain,Jennifer Blackhurst - Primary Instructor,,-,32.0,-,-,8.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+MBA:8240:0EXO,Operations and Supply Chain,Scott Heiser - Primary Instructor,,-,20.0,-,-,6.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+MBA:8300:0900,Foundations in Strategy,Erin Nelson - Primary Instructor,,-,18.0,-,-,5.0,-,-,1.0,-,-,0.0,-,-,0.0,Summer,2023,1
+MBA:8300:0EXN,Foundations in Strategy,Rick Marolt - Primary Instructor,,-,20.0,-,-,10.0,-,-,1.0,-,-,1.0,-,-,0.0,Summer,2023,1
+MBA:8300:0EXO,Foundations in Strategy,Rick Marolt - Primary Instructor,,-,13.0,-,-,18.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+MBA:8310:0900,Business Integration,Jon Gray - Primary Instructor,,-,22.0,-,-,1.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+MBA:8310:0EX8,Business Integration,Goutam Chakraborty - Primary Instructor,Stephanie Schnicker - Course Supervisor,-,7.0,-,-,4.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+MBA:8310:0EXO,Business Integration,Jon Gray - Primary Instructor,,-,66.0,-,-,15.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+MBA:8500:0900,Seminar in International Business,Mark Winkler - Primary Instructor,,-,24.0,-,-,0.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+MED:1100:0EXW,Introduction to Health Care Professions,Natalie Denburg - Primary Instructor,,-,9.0,-,-,3.0,-,-,0.0,-,-,1.0,-,-,0.0,Summer,2023,1
+MGMT:2000:0EX3,Introduction to Law,Kimberly Petrone - Primary Instructor,Stephanie Schnicker - Course Supervisor,-,13.0,-,-,13.0,-,-,7.0,-,-,0.0,-,-,0.0,Summer,2023,1
+MGMT:2000:0EX4,Introduction to Law,Sarah Dobrzykowski - Primary Instructor,Stephanie Schnicker - Course Supervisor,-,10.0,-,-,20.0,-,-,8.0,-,-,0.0,-,-,0.0,Summer,2023,1
+MGMT:2000:0EXW,Introduction to Law,Andrew Hosmanek - Primary Instructor,,-,10.0,-,-,18.0,-,-,5.0,-,-,1.0,-,-,1.0,Summer,2023,1
+MGMT:2100:0EX3,Introduction to Management,Jana Fitchett - Primary Instructor,Stephanie Schnicker - Course Supervisor,-,35.0,-,-,1.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+MGMT:2100:0EX4,Introduction to Management,Jana Fitchett - Primary Instructor,Anna Fiumicetti - Course Supervisor,-,34.0,-,-,4.0,-,-,1.0,-,-,0.0,-,-,0.0,Summer,2023,1
+MGMT:2100:0EXT,Introduction to Management,Beth Bellman - Primary Instructor,,-,4.0,-,-,7.0,-,-,6.0,-,-,2.0,-,-,1.0,Summer,2023,1
+MGMT:2100:0EXW,Introduction to Management,Steven Abram - Primary Instructor,,-,10.0,-,-,16.0,-,-,11.0,-,-,0.0,-,-,0.0,Summer,2023,1
+MGMT:9110:0EXO,Dynamics of Negotiations,Andrew Hosmanek - Primary Instructor,,-,13.0,-,-,1.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+MGMT:9120:0EXO,Leadership and Personal Development,Lon Moeller - Primary Instructor,,-,22.0,-,-,5.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+MGMT:9130:0EXO,Strategic Management of Change,Sue Dustin - Primary Instructor,,-,12.0,-,-,2.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+MGMT:9185:0EXO,Project Management,Nicole McElligott - Primary Instructor,,-,34.0,-,-,1.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+MGMT:9220:0EXO,Maximizing Team Performance,Erin Nelson - Primary Instructor,,-,36.0,-,-,1.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+MGMT:9230:0EXO,Managing and Preventing Conflict,Jay Christensen-Szalanski - Primary Instructor,,-,12.0,-,-,7.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+MGMT:9250:0EXO,Managing Employee Performance,Michael Stutzman - Primary Instructor,,-,11.0,-,-,5.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+MKTG:3000:0EX3,Introduction to Marketing Strategy,Robert Underwood - Primary Instructor,Anna Fiumicetti - Course Supervisor,-,13.0,-,-,25.0,-,-,1.0,-,-,0.0,-,-,0.0,Summer,2023,1
+MKTG:3000:0EX4,Introduction to Marketing Strategy,Rob Simon - Primary Instructor,Stephanie Schnicker - Course Supervisor,-,11.0,-,-,22.0,-,-,2.0,-,-,0.0,-,-,0.0,Summer,2023,1
+MKTG:3000:0EXW,Introduction to Marketing Strategy,Nancy Abram - Primary Instructor,,-,15.0,-,-,36.0,-,-,8.0,-,-,2.0,-,-,1.0,Summer,2023,1
+MKTG:4000:0EX3,Contemporary Topics in Marketing,Heather Nelson - Primary Instructor,Stephanie Schnicker - Course Supervisor,-,28.0,-,-,8.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+MKTG:4000:0EX4,Contemporary Topics in Marketing,Molly Rapert - Primary Instructor,Stephanie Schnicker - Course Supervisor,-,38.0,-,-,0.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+MKTG:4101:0EXW,Integrated Marketing Communications,Rob Rouwenhorst - Primary Instructor,,-,17.0,-,-,11.0,-,-,3.0,-,-,0.0,-,-,0.0,Summer,2023,1
+MKTG:4300:0EX4,International Marketing,Swinder Janda - Primary Instructor,Stephanie Schnicker - Course Supervisor,-,15.0,-,-,24.0,-,-,7.0,-,-,0.0,-,-,0.0,Summer,2023,1
+MKTG:9155:0EXO,"Digital Mktg Insights, Strategies & Appl",Mike Wokosin - Primary Instructor,,-,29.0,-,-,1.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+MKTG:9350:0EXO,Marketing Communication and Promotions,Rob Rouwenhorst - Primary Instructor,,-,10.0,-,-,6.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+MPB:5200:0EXW,Medical Physiology Online,Rafael Cabeza - Primary Instructor,,-,8.0,-,-,13.0,-,-,3.0,-,-,0.0,-,-,0.0,Summer,2023,1
+MUS:1066:0EXW,Introduction to Film Music,Jonathan Allen - Primary Instructor,,-,18.0,-,-,18.0,-,-,2.0,-,-,0.0,-,-,0.0,Summer,2023,1
+NURS:3138:2001,Nursing Pharmacological Interventions I,Kathleen Adams - Primary Instructor,,-,11.0,-,-,3.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+NURS:3744:1001,Critical Care Nursing,Syeda Thomas - Primary Instructor,Anita Nicholson - Course Supervisor,-,13.0,-,-,0.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+NURS:5015:0EXW,"Health Systems, Finance, and Economics",Heidi Shedenhelm - Primary Instructor,,-,20.0,-,-,1.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+NURS:5035:0EXV,Graduate Pharmacology Specialty,Ann Weltin - Primary Instructor,,-,13.0,-,-,3.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+NURS:5036:0EXW,Psychopharmacology for Adv Clinical Prac,Daniel Wesemann - Primary Instructor,,-,17.0,-,-,1.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+NURS:5040:0EXW,Genetics/Genomics Adv Nursing Practice,Katie Halbmaier - Primary Instructor,,-,46.0,-,-,4.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+NURS:6000:0001,Human Anatomy for Advanced Practice,Kathleen Andersen - Primary Instructor,,-,6.0,-,-,7.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+NURS:6007:0001,Basic Principles of Anesthesia Practice,Heather Bair - Primary Instructor,,-,8.0,-,-,4.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+NURS:6802:0EXW,"Health Policy, Law, and Advocacy",Molly Frommelt-Kuhle - Primary Instructor,,-,31.0,-,-,1.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+NURS:6808:0EXW,Population Health for Advanced Practice,Jessica Anderson - Primary Instructor,,-,15.0,-,-,0.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+ORSC:5210:CERT,Dental Sciences Research Methodology,Aline Petrin - Primary Instructor,,-,11.0,-,-,0.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+PCD:8500:0801,Dental Student Research Honors Program,Teresa Marshall - Primary Instructor,,-,41.0,-,-,0.0,-,-,0.0,-,-,3.0,-,-,0.0,Summer,2023,1
+PHIL:1401:0001,Matters of Life and Death,Andy Williams - Primary Instructor,,-,7.0,-,-,6.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+PHYS:1511:0EXA,College Physics I,Dan McGinnis - Primary Instructor,,-,33.0,-,-,27.0,-,-,9.0,-,-,7.0,-,-,1.0,Summer,2023,1
+PHYS:1512:0EXA,College Physics II,Ugur Akgun - Primary Instructor,,-,10.0,-,-,16.0,-,-,10.0,-,-,6.0,-,-,2.0,Summer,2023,1
+PHYS:1612:0EXA,Introductory Physics II,Sarah Conley - Primary Instructor,,-,4.0,-,-,10.0,-,-,2.0,-,-,3.0,-,-,1.0,Summer,2023,1
+POLI:1400:0EXW,Introduction to Comparative Politics,Alex Bezahler - Primary Instructor,Brian Lai - Course Supervisor,-,33.0,-,-,3.0,-,-,0.0,-,-,2.0,-,-,1.0,Summer,2023,1
+POLI:1500:0EXV,Introduction to International Relations,Weidong Zhang - Primary Instructor,Brian Lai - Course Supervisor,-,19.0,-,-,12.0,-,-,4.0,-,-,2.0,-,-,1.0,Summer,2023,1
+POLI:1501:0EXV,Introduction to American Foreign Policy,Cassidy Oberreuter - Primary Instructor,Brian Lai - Course Supervisor,-,31.0,-,-,4.0,-,-,0.0,-,-,2.0,-,-,1.0,Summer,2023,1
+POLI:1510:0EXW,Intl Politics of Environmental Issues,Stephanie Schmitt - Primary Instructor,Brian Lai - Course Supervisor,-,28.0,-,-,2.0,-,-,2.0,-,-,1.0,-,-,3.0,Summer,2023,1
+POLI:1601:0EXV,Introduction to Social Media & Politics,Simal Binici - Primary Instructor,Caroline Tolbert - Course Supervisor,-,14.0,-,-,15.0,-,-,2.0,-,-,0.0,-,-,4.0,Summer,2023,1
+POLI:1950:0EXW,Introduction to the Politics of Religion,Nicholas Martini - Primary Instructor,,-,17.0,-,-,16.0,-,-,3.0,-,-,1.0,-,-,2.0,Summer,2023,1
+POLI:3102:0EXW,The U.S. Congress,Tracy Osborn - Primary Instructor,,-,10.0,-,-,10.0,-,-,4.0,-,-,9.0,-,-,2.0,Summer,2023,1
+POLI:3503:0EXW,Politics of Terrorism,Ahmed Ahmed - Primary Instructor,Brian Lai - Course Supervisor,-,27.0,-,-,3.0,-,-,1.0,-,-,4.0,-,-,4.0,Summer,2023,1
+PSQF:1020:0EXW,Elementary Statistics and Inference,Anh Nguyen - Primary Instructor,Aixin Tan - Course Supervisor,-,3.0,-,-,4.0,-,-,4.0,-,-,1.0,-,-,0.0,Summer,2023,1
+PSQF:4134:0EXW,Parent-Teacher Communication,Michelle Hinzman - Primary Instructor,,-,7.0,-,-,3.0,-,-,1.0,-,-,0.0,-,-,0.0,Summer,2023,1
+PSQF:5900:0EXW,Psychometrics,Robert Ankenmann - Primary Instructor,,-,11.0,-,-,0.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+PSY:1001:0EXW,Elementary Psychology,Debra Johnson - Primary Instructor,,-,11.0,-,-,13.0,-,-,5.0,-,-,0.0,-,-,1.0,Summer,2023,1
+PSY:2401:0001,Introduction to Developmental Science,Julie Gros-Louis - Primary Instructor,,-,8.0,-,-,8.0,-,-,1.0,-,-,0.0,-,-,1.0,Summer,2023,1
+PSY:2601:0001,Introduction to Cognitive Psychology,Kalyani Datta - Primary Instructor,Eliot Hazeltine - Course Supervisor,-,7.0,-,-,9.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+PSY:2812:0001,Rsrch Methds & Data Analysis in Psych II,John Zbaracki - Primary Instructor,J Toby Mordkoff - Course Supervisor,-,7.0,-,-,7.0,-,-,3.0,-,-,1.0,-,-,0.0,Summer,2023,1
+PSY:3320:0EXW,Abnormal Psychology,Ashley Norwood-Strickland - Primary Instructor,,-,22.0,-,-,18.0,-,-,4.0,-,-,1.0,-,-,1.0,Summer,2023,1
+PSY:3330:0EXW,Childhood Psychopathology,Natalie Denburg - Primary Instructor,,-,6.0,-,-,11.0,-,-,2.0,-,-,0.0,-,-,1.0,Summer,2023,1
+PTRS:5101:0001,Intro to Physical Therapy Practice,Marcie Becker - Primary Instructor,,-,47.0,-,-,3.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+PTRS:5102:0001,Principles of Physical Therapy I,Marcie Becker - Primary Instructor,,-,47.0,-,-,3.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+PTRS:5205:0001,Health Promotion and Wellness,Laura Frey Law - Primary Instructor,,-,50.0,-,-,0.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+PTRS:6120:0001,Physical Therapy Mgmt & Admin I,Amy Kimball - Primary Instructor,,-,48.0,-,-,0.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+PTRS:6143:0001,Selected Topics in PT Practice,Marcie Becker - Primary Instructor,,-,46.0,-,-,2.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+PTRS:6176:0001,Pharmacology for Physical Therapists,Darren Casey - Primary Instructor,,-,44.0,-,-,4.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+PTRS:6794:0001,Terminal Clinical Education in PT I,Kelly Sass - Primary Instructor,,-,45.0,-,-,2.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+RELS:1001:0EXW,"Judaism, Christianity, and Islam",Paul Dilley - Primary Instructor,,-,13.0,-,-,13.0,-,-,3.0,-,-,0.0,-,-,3.0,Summer,2023,1
+RHET:1030:0EXV,Rhetoric,Dylan Nice - Primary Instructor,,-,5.0,-,-,6.0,-,-,2.0,-,-,0.0,-,-,1.0,Summer,2023,1
+RHET:1030:0EXW,Rhetoric,Dhruba Neupane - Primary Instructor,,-,10.0,-,-,2.0,-,-,0.0,-,-,2.0,-,-,1.0,Summer,2023,1
+RHET:1040:0EXW,Writing and Reading,Steve Duck - Primary Instructor,,-,6.0,-,-,5.0,-,-,1.0,-,-,0.0,-,-,3.0,Summer,2023,1
+RSCT:4100:0EXW,Sectional Anatomy for Imaging Sciences,Ivann Galvan - Primary Instructor,Holly Bonfig-Becker - Course Supervisor,-,6.0,-,-,8.0,-,-,1.0,-,-,0.0,-,-,0.0,Summer,2023,1
+RSCT:4130:0EXW,CT Physical Principles and QC,Jesse Brennan - Primary Instructor,Holly Bonfig-Becker - Course Supervisor,-,13.0,-,-,0.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+RSRT:2325:0001,Radiologic Tech Clinical Internship III,Lorie Gillitzer - Primary Instructor,Holly Bonfig-Becker - Course Supervisor,-,14.0,-,-,1.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+SIED:4110:0EXA,Environmental Issues of Colorado Rockies,Ted Neal - Primary Instructor,,-,5.0,-,-,6.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+SLIS:5200:0EXW,Innovation and Technology Methodology,Elizabeth Campbell - Primary Instructor,,-,11.0,-,-,7.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+SLIS:5230:0EXW,Resources for Young Adults,Chelsea Sims - Primary Instructor,,-,17.0,-,-,1.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+SLIS:6115:0EXW,Information and Inquiry,Iulian Vamanu - Primary Instructor,,-,15.0,-,-,1.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+SLIS:6330:0EXW,Collection Development,Melissa White - Primary Instructor,,-,11.0,-,-,0.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+SOC:1010:0EXR,Introduction to Sociology,Kelci Millbrook - Primary Instructor,Stephanie Dipietro - Course Supervisor,-,10.0,-,-,15.0,-,-,2.0,-,-,2.0,-,-,0.0,Summer,2023,1
+SOC:1030:0EXW,Contemporary Social Problems,Levi Sands - Primary Instructor,Stephanie Dipietro - Course Supervisor,-,8.0,-,-,17.0,-,-,2.0,-,-,1.0,-,-,1.0,Summer,2023,1
+SOC:1310:0EXW,Gender and Society,Jay Sorensen - Primary Instructor,Stephanie Dipietro - Course Supervisor,-,11.0,-,-,1.0,-,-,0.0,-,-,1.0,-,-,0.0,Summer,2023,1
+SOC:2710:0EXV,The American Family,Jennifer Haylett - Primary Instructor,,-,19.0,-,-,9.0,-,-,3.0,-,-,6.0,-,-,1.0,Summer,2023,1
+SOC:2810:0EXV,Social Inequality,Katie Linder - Primary Instructor,Stephanie Dipietro - Course Supervisor,-,14.0,-,-,9.0,-,-,2.0,-,-,2.0,-,-,1.0,Summer,2023,1
+SPAN:1001:0EXW,Elementary Spanish I,Mackenzi McGowan - Primary Instructor,Giovanni Zimotti - Course Supervisor,-,4.0,-,-,4.0,-,-,2.0,-,-,1.0,-,-,2.0,Summer,2023,1
+SPAN:1002:0EXW,Elementary Spanish II,Mackenzi McGowan - Primary Instructor,Giovanni Zimotti - Course Supervisor,-,3.0,-,-,10.0,-,-,3.0,-,-,2.0,-,-,1.0,Summer,2023,1
+SPAN:1501:0EXW,Intermediate Spanish I,Emerson Craig - Primary Instructor,Giovanni Zimotti - Course Supervisor,-,4.0,-,-,11.0,-,-,4.0,-,-,0.0,-,-,0.0,Summer,2023,1
+SPAN:1502:0EXV,Intermediate Spanish II,Maria Marquez Ponce - Primary Instructor,Giovanni Zimotti - Course Supervisor,-,2.0,-,-,11.0,-,-,4.0,-,-,0.0,-,-,2.0,Summer,2023,1
+SPAN:1502:0EXW,Intermediate Spanish II,Sebastian Lores - Primary Instructor,Giovanni Zimotti - Course Supervisor,-,2.0,-,-,10.0,-,-,6.0,-,-,1.0,-,-,1.0,Summer,2023,1
+SPAN:1503:0EXW,Accelerated Intermediate Spanish,Giovanni Zimotti - Primary Instructor,,-,11.0,-,-,4.0,-,-,2.0,-,-,4.0,-,-,1.0,Summer,2023,1
+SRM:1060:0EXW,Contemporary Issues in Sports,Kara Kehe - Primary Instructor,,-,16.0,-,-,8.0,-,-,5.0,-,-,0.0,-,-,0.0,Summer,2023,1
+SRM:3149:0EXW,"Coaching Theory, Body Struc & Human Dev",Jeremy Mims - Primary Instructor,,-,7.0,-,-,13.0,-,-,2.0,-,-,0.0,-,-,0.0,Summer,2023,1
+SRM:3153:0EXW,Sport Business Practices,Jeremy Parrish - Primary Instructor,,-,2.0,-,-,4.0,-,-,5.0,-,-,2.0,-,-,0.0,Summer,2023,1
+SRM:3157:0EXW,Managerial Operations in Sport and Rec,Sarah Hardin - Primary Instructor,,-,7.0,-,-,11.0,-,-,6.0,-,-,1.0,-,-,1.0,Summer,2023,1
+SRM:3175:0EXW,Sales in Sport,Packy Moran - Primary Instructor,,-,6.0,-,-,10.0,-,-,1.0,-,-,0.0,-,-,2.0,Summer,2023,1
+SRM:3178:0EXW,Communications and PR in Sports,Kara Kehe - Primary Instructor,,-,4.0,-,-,9.0,-,-,5.0,-,-,3.0,-,-,1.0,Summer,2023,1
+SRM:4197:0001,Sport and Recreation Field Experience,Packy Moran - Primary Instructor,,-,18.0,-,-,0.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+SRM:4197:0002,Sport and Recreation Field Experience,Daniel Matheson - Primary Instructor,,-,16.0,-,-,0.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+SRM:4197:0016,Sport and Recreation Field Experience,Jeremy Parrish - Primary Instructor,,-,9.0,-,-,2.0,-,-,1.0,-,-,0.0,-,-,0.0,Summer,2023,1
+SRM:4199:0001,Ind Sport & Recreation Field Experience,Anna Jensen - Primary Instructor,,-,2.0,-,-,9.0,-,-,1.0,-,-,0.0,-,-,0.0,Summer,2023,1
+SRM:4199:0002,Ind Sport & Recreation Field Experience,Anna Jensen - Primary Instructor,,-,13.0,-,-,1.0,-,-,2.0,-,-,0.0,-,-,0.0,Summer,2023,1
+SRM:4199:0003,Ind Sport & Recreation Field Experience,Alex Voss - Primary Instructor,Anna Jensen - Course Supervisor,-,9.0,-,-,5.0,-,-,3.0,-,-,0.0,-,-,0.0,Summer,2023,1
+SRM:4199:0004,Ind Sport & Recreation Field Experience,Sarah Hardin - Primary Instructor,Anna Jensen - Course Supervisor,-,10.0,-,-,5.0,-,-,1.0,-,-,0.0,-,-,0.0,Summer,2023,1
+SRM:4199:0005,Ind Sport & Recreation Field Experience,Michael Winker - Primary Instructor,Anna Jensen - Course Supervisor,-,2.0,-,-,8.0,-,-,1.0,-,-,1.0,-,-,1.0,Summer,2023,1
+SSTP:1001:0001,Secondary Student Training Program,Ashlee Donithan - Primary Instructor,,-,44.0,-,-,2.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+SSTP:1001:0EXW,Secondary Student Training Program,Ashlee Donithan - Primary Instructor,,-,12.0,-,-,0.0,-,-,0.0,-,-,1.0,-,-,0.0,Summer,2023,1
+SSW:3729:0EXW,Substance Use and Abuse,Edwin Haycraft - Primary Instructor,,-,27.0,-,-,4.0,-,-,1.0,-,-,1.0,-,-,0.0,Summer,2023,1
+SSW:5200:0EXW,Grief Work with Individuals and Families,Jaret Morlan - Primary Instructor,,-,11.0,-,-,2.0,-,-,1.0,-,-,0.0,-,-,0.0,Summer,2023,1
+SSW:5250:0EXW,Resilience and Trauma Individuals,Yvonne Farley - Primary Instructor,,-,22.0,-,-,3.0,-,-,0.0,-,-,1.0,-,-,0.0,Summer,2023,1
+SSW:6234:0EXA,Social Work Practice and Use of DSM,Joseph Nemmers - Primary Instructor,,-,13.0,-,-,0.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+SSW:6234:0EXW,Social Work Practice and Use of DSM,Lance Clemsen - Primary Instructor,,-,28.0,-,-,7.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+SSW:7100:0EXW,Critical Thinking for Clinical Practice,Kara Houser - Primary Instructor,,-,12.0,-,-,4.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+SSW:7100:0EXY,Critical Thinking for Clinical Practice,Kara Houser - Primary Instructor,,-,6.0,-,-,3.0,-,-,2.0,-,-,1.0,-,-,0.0,Summer,2023,1
+SSW:7200:0EXW,Critical Thinking for Leadership Pract,Sarah Witry - Primary Instructor,,-,16.0,-,-,0.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+SSW:7200:0EXY,Critical Thinking for Leadership Pract,Julia Kleinschmit - Primary Instructor,,-,9.0,-,-,3.0,-,-,0.0,-,-,0.0,-,-,0.0,Summer,2023,1
+STAT:1020:0EXW,Elementary Statistics and Inference,Anh Nguyen - Primary Instructor,Aixin Tan - Course Supervisor,-,15.0,-,-,8.0,-,-,7.0,-,-,1.0,-,-,0.0,Summer,2023,1
+WRIT:3742:0EXV,Word Power: Building English Vocabulary,Ryan Tribble - Primary Instructor,Craig Gibson - Course Supervisor,-,3.0,-,-,3.0,-,-,2.0,-,-,3.0,-,-,1.0,Summer,2023,1

@@ -1,0 +1,124 @@
+{
+    "exampleData": [
+        {
+            "uniqueID": "CHEM:2210:000B_Fall-2023",
+            "courseCode": "CHEM:2210:000B",
+            "courseTitle": "Organic Chemistry I",
+            "instructors": ["Rebecca Laird"],
+            "session": "Fall-2023",
+            "subject": "CHEM",
+            "grades": {
+                "A": 88,
+                "B": 102,
+                "C": 92,
+                "D & F": 34,
+                "W": 10
+            }
+        },
+        {
+            "uniqueID": "CS:3330:0001_Spring-2024",
+            "courseCode": "CS:3330:0001",
+            "courseTitle": "Algorithms",
+            "instructors": ["Bijaya Adhikari"],
+            "session": "Spring-2024",
+            "subject": "CS",
+            "grades": {
+                "A": 8,
+                "B": 23,
+                "C": 20,
+                "D & F": 1,
+                "W": 6
+            }
+        },
+        {
+            "uniqueID": "FIN:4410:0001_Fall-2023",
+            "courseCode": "FIN:4410:0001",
+            "courseTitle": "Enterprise Risk Management",
+            "instructors": ["Richard Peter"],
+            "session": "Fall-2023",
+            "subject": "FIN",
+            "grades": {
+                "A": 20,
+                "B": 40,
+                "C": 9,
+                "D & F": 1,
+                "W": 1
+            }
+        },
+        {
+            "uniqueID": "STAT:3510:0A16_Fall-2023",
+            "courseCode": "STAT:3510:0A16",
+            "courseTitle": "Biostatistics",
+            "instructors": ["Yang Cao", "Matthew Bognar"],
+            "session": "Fall-2023",
+            "subject": "STAT",
+            "grades": {
+                "A": 8,
+                "B": 6,
+                "C": 8,
+                "D & F": 4,
+                "W": 0
+            }
+        },
+        {
+            "uniqueID": "BAIS:3000:0A02_Spring-2024",
+            "courseCode": "BAIS:3000:0A02",
+            "courseTitle": "Operations Management",
+            "instructors": ["Moreblessing Muskwe", "Michael Redmond"],
+            "session": "Spring-2024",
+            "subject": "BAIS",
+            "grades": {
+                "A": 6,
+                "B": 10,
+                "C": 12,
+                "D & F": 1,
+                "W": 0
+            }
+        },
+        {
+            "uniqueID": "ENGR:2130:0EXW_Summer-2023",
+            "courseCode": "ENGR:2130:0EXW",
+            "courseTitle": "Thermodynamics",
+            "instructors": ["David Rethwisch"],
+            "session": "Summer-2023",
+            "subject": "ENGR",
+            "grades": {
+                "A": 9,
+                "B": 11,
+                "C": 7,
+                "D & F": 3,
+                "W": 1
+            }
+        },
+        {
+            "uniqueID": "NURS:3518:1001_Fall-2023",
+            "courseCode": "NURS:3518:1001",
+            "courseTitle": "Pathology",
+            "instructors": ["Anna Starcevich"],
+            "session": "Fall-2023",
+            "subject": "NURS",
+            "grades": {
+                "A": 39,
+                "B": 33,
+                "C": 6,
+                "D & F": 1,
+                "W": 1
+            }
+        },
+        {
+            "uniqueID": "BIOL:2723:0001_Fall-2023",
+            "courseCode": "BIOL:2723:0001",
+            "courseTitle": "Cell Biology",
+            "instructors": ["Daniel Summers"],
+            "session": "Fall-2023",
+            "subject": "BIOL",
+            "grades": {
+                "A": 57,
+                "B": 30,
+                "C": 9,
+                "D & F": 0,
+                "W": 2
+            }
+        }
+    ]
+}
