@@ -1,5 +1,6 @@
 import { getClient } from "@/db";
 import { CourseType } from "@/db/types";
+import { Filter } from "mongodb";
 
 export default async function findCourses(filters: {
     search?: string;
@@ -13,7 +14,7 @@ export default async function findCourses(filters: {
     const sessions = filters.session_filter?.split(",") ?? [];
     const instructors = filters.instructor_filter?.split(",") ?? [];
 
-    const query = {};
+    const query: Filter<CourseType> = {};
 
     if (filters.search) {
         const terms = filters.search.split(" ").map((term) => term.trim());
