@@ -10,7 +10,7 @@ The site is maintained by ACM@UIowa, and developed by Liao Z. For code-related q
 
 ## Development
 
-UIGrades is built with Next.js App Router, TypeScript, and MongoDB. Site hosting is done via [Vercel](https://vercel.com), database hosting utilizes [MongoDB](https://www.mongodb.com/), and analytics are handled with [Google Analytics](https://marketingplatform.google.com/about/analytics/)
+UIGrades is built with Next.js App Router, TypeScript, and MongoDB. Site hosting is done via [Vercel](https://vercel.com), database hosting utilizes [MongoDB](https://www.mongodb.com/), and analytics are handled with [Google Analytics](https://marketingplatform.google.com/about/analytics/). Designs for the site can be found in this [Figma](https://www.figma.com/design/ER2GkymBrORUWpnABQYwzy/UIGrades?node-id=0-1&t=ta6iagPGjJGmZxLp-1).
 
 Dependencies:
 
@@ -23,7 +23,8 @@ Dependencies:
 - [zod](https://zod.dev/)
 - [otpauth](https://www.npmjs.com/package/otpauth/)
 - [heroicons](https://heroicons.com/)
-- [SendGrid](https://sendgrid.com/en-us)
+- [SendGrid](https://sendgrid.com/en-us/)
+- [Next third-parties](https://nextjs.org/docs/app/building-your-application/optimizing/third-party-libraries/)
 
 ## Disclaimer
 
