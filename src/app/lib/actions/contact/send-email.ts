@@ -31,7 +31,7 @@ export async function sendEmail({
         html: `<h3>New UIGrades message from user ${name}</h3><p>Name: ${name}</p><p>Email: <a href="mailto:${email}">${email}</a></p><p>${message}</p>`,
     };
     try {
-        sgMail.send(msg);
+        await sgMail.send(msg);
         return {
             state: "success",
         };
