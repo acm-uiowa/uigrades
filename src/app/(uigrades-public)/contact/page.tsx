@@ -12,25 +12,11 @@ export default function ContactPage() {
                     Reach out to us to stay up to date or report any issues you
                     encounter!
                 </h2>
-                <h2 className="pt-8 text-[#E03D4D]">
-                    We are currently having issues with the contact form sender.
-                    If you have reached out to us in the past week, your message
-                    may have been lost. In the meantime, please reach out to us
-                    at{" "}
-                    <a
-                        href="mailto:acm@uiowa.edu"
-                        className="text-hawkeye-gold underline"
-                    >
-                        acm@uiowa.edu
-                    </a>{" "}
-                    or{" "}
-                    <a
-                        href="mailto:kyle-chi@uiowa.edu"
-                        className="text-hawkeye-gold underline"
-                    >
-                        kyle-chi@uiowa.edu
-                    </a>
-                    . Thank you for your patience!
+                <h2 className="pt-8 text-hawkeye-gold">
+                    If you reached out to us between 1/16/2025 - 1/24/2025, your
+                    message may have been lost due to an internal error (no
+                    intentional ghosting, we promise). Please feel free to reach
+                    out to us again!
                 </h2>
             </div>
             <ContactForm />
