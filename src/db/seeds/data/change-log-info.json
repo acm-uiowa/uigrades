@@ -1,6 +1,13 @@
 {
     "changes": [
         {
+            "version": "5.0.1",
+            "date": "January 2025",
+            "tags": ["Bug Fix"],
+            "changes": ["Fixed contact form message not sending via SendGrid"],
+            "authors": ["KC"]
+        },
+        {
             "version": "5.0.0",
             "date": "January 2025",
             "tags": ["Update", "Improvement", "Feature"],
