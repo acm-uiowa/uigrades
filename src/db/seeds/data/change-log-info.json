@@ -13,7 +13,10 @@
             "version": "5.0.1",
             "date": "January 2025",
             "tags": ["Bug Fix"],
-            "changes": ["Fixed contact form message not sending via SendGrid"],
+            "changes": [
+                "Fixed contact form message not sending via SendGrid",
+                "Fixed slow and buggy search bar inside filters"
+            ],
             "authors": ["KC"]
         },
         {

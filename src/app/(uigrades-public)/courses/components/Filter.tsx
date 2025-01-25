@@ -4,6 +4,7 @@ import { useState, useEffect, useRef, SetStateAction } from "react";
 import Form from "next/form";
 import { BorderContainerLarge } from "@/app/(uigrades-public)/components/BorderContainerLarge";
 import { CloseIcon } from "@/app/(uigrades-public)/components/icons/CloseIcon";
+import { FilterSearchBar } from "./FilterSearchBar";
 
 export function Filter({
     name,
@@ -51,28 +52,15 @@ export function Filter({
     });
 
     useEffect(() => {
-        const timeout = setTimeout(() => {
-            const filteredFilterOptions = courseFilters[name].filter((item) =>
-                item.name.toLowerCase().includes(filterSearch.toLowerCase()),
-            );
+        const filteredFilterOptions = courseFilters[name].filter((item) =>
+            item.name.toLowerCase().includes(filterSearch.toLowerCase()),
+        );
 
-            setOptions(filteredFilterOptions);
-        }, 200);
-
-        return () => {
-            clearTimeout(timeout);
-        };
+        setOptions(filteredFilterOptions);
     }, [name, courseFilters, filterSearch]);
 
     const toggleFilterOpen = () => {
-        setFilterSearch("");
         setFilterOpen((prev) => !prev);
-    };
-
-    const handleFilterSearchChange = (event: {
-        target: { value: SetStateAction<string> };
-    }) => {
-        setFilterSearch(event.target.value);
     };
 
     const handleFilterApply = (filterData: FormData) => {
@@ -108,12 +96,9 @@ export function Filter({
                 />
                 <BorderContainerLarge className="z-10 mx-page-mobile-x mt-24 flex h-fit w-full flex-col gap-flex-gap-small bg-primary-dark-gray md:w-1/3">
                     <div className="flex w-full flex-row items-center border-b-thin-1 border-primary-border-color pb-paragraph-gap">
-                        <input
-                            tabIndex={filterOpen ? 0 : -1}
-                            className="grow text-off-white placeholder-primary-medium-gray"
-                            placeholder="E.g. CHEM"
-                            value={filterSearch}
-                            onChange={handleFilterSearchChange}
+                        <FilterSearchBar
+                            filterOpen={filterOpen}
+                            setFilterSearch={setFilterSearch}
                         />
                         <div>
                             <button
