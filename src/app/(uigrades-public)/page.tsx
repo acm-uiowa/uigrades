@@ -11,7 +11,12 @@ export default function Home() {
                     <span>Explore Courses Taken By Fellow</span>
                     <span className="text-hawkeye-gold">Hawkeyes</span>
                 </h1>
-                <StartBrowsingButton className="relative z-20" />
+                <div className="flex flex-col gap-flex-gap-large">
+                    <span className="subheader-mobile z-20 text-off-white md:w-1/2">
+                        Now including Summer 2024 and Fall 2024 data!
+                    </span>
+                    <StartBrowsingButton className="relative z-20" />
+                </div>
                 <div
                     className="absolute inset-0 z-10 hidden bg-black/85 backdrop-blur-md md:block"
                     style={{
@@ -42,7 +47,7 @@ export default function Home() {
                     <span>
                         <span className="text-hawkeye-gold">UI</span>
                         Grades currently supports data between Fall 2022 and
-                        Spring 2024!
+                        Fall 2024!
                     </span>
                 </div>
                 <HomePageGraphs className="w-full md:w-3/4" />

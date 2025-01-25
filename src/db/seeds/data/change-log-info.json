@@ -1,6 +1,15 @@
 {
     "changes": [
         {
+            "version": "5.1.0",
+            "date": "January 2025",
+            "tags": ["Update"],
+            "changes": [
+                "Added new data for sessions Summer 2024 and Fall 2024"
+            ],
+            "authors": ["KC"]
+        },
+        {
             "version": "5.0.1",
             "date": "January 2025",
             "tags": ["Bug Fix"],
