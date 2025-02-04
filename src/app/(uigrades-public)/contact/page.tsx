@@ -16,7 +16,11 @@ export default function ContactPage() {
                     If you reached out to us between 1/16/2025 - 1/24/2025, your
                     message may have been lost due to an internal error (no
                     intentional ghosting, we promise). Please feel free to reach
-                    out to us again!
+                    out to us again! You can also reach us at{" "}
+                    <a className="underline" href="mailto:acm@uiowa.edu">
+                        acm@uiowa.edu
+                    </a>
+                    .
                 </h2>
             </div>
             <ContactForm />

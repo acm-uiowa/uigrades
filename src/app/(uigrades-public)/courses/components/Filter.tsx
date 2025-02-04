@@ -97,6 +97,7 @@ export function Filter({
                 <BorderContainerLarge className="z-10 mx-page-mobile-x mt-24 flex h-fit w-full flex-col gap-flex-gap-small bg-primary-dark-gray md:w-1/3">
                     <div className="flex w-full flex-row items-center border-b-thin-1 border-primary-border-color pb-paragraph-gap">
                         <FilterSearchBar
+                            name={name}
                             filterOpen={filterOpen}
                             setFilterSearch={setFilterSearch}
                         />

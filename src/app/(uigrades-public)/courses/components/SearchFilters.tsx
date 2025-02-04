@@ -69,7 +69,11 @@ export function SearchFilters({
         courseLevel: FilterType[];
     }>({
         subject: listToFilterList(singletonDocsToList(use(allSubjects))),
-        session: listToFilterList(singletonDocsToList(use(allSessions))),
+        session: listToFilterList(
+            singletonDocsToList(use(allSessions)).map((item) =>
+                item.split("-").join(" "),
+            ),
+        ),
         instructor: listToFilterList(singletonDocsToList(use(allInstructors))),
         courseLevel: listToFilterList(courseLevels),
     });

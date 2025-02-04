@@ -20,6 +20,7 @@ Dependencies:
 - [MongoDB](https://www.mongodb.com/)
 - [node-xlsx](https://www.npmjs.com/package/node-xlsx/)
 - [Recharts](https://recharts.org/en-US/)
+- [Motion](https://motion.dev/)
 - [zod](https://zod.dev/)
 - [otpauth](https://www.npmjs.com/package/otpauth/)
 - [heroicons](https://heroicons.com/)
