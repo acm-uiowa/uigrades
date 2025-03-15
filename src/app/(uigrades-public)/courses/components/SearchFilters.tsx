@@ -9,6 +9,7 @@ import { Filter } from "./Filter";
 import { SingleNameType } from "@/db/types";
 import { CloseIcon } from "../../components/icons/CloseIcon";
 import { BorderContainerLarge } from "../../components/BorderContainerLarge";
+import { ActiveFilters } from "./ActiveFilters";
 
 interface FilterType {
     name: string;
@@ -80,11 +81,14 @@ export function SearchFilters({
 
     useEffect(() => {
         const subjectsParam = getFilters(courseFilters.subject).join(",");
-        const sessionsParam = getFilters(courseFilters.session).join(",");
+        const sessionsParamUnprocessed = getFilters(courseFilters.session);
         const instructorsParam = getFilters(courseFilters.instructor).join(",");
         const courseLevelsParams = getFilters(courseFilters.courseLevel).join(
             ",",
         );
+        const sessionsParam = sessionsParamUnprocessed
+            .map((session) => session.split(" ").join("-"))
+            .join(",");
 
         const params = new URLSearchParams(searchParams.toString());
         if (subjectsParam) {
@@ -252,6 +256,15 @@ export function SearchFilters({
                             </Filter>
                         </div>
                     </BorderContainerLarge>
+                </div>
+            </div>
+            <div className="hidden md:block">
+                <span>Active Filters:</span>
+                <div className="text-content-small">
+                    <ActiveFilters singleFilter={courseFilters.subject} />
+                    <ActiveFilters singleFilter={courseFilters.session} />
+                    <ActiveFilters singleFilter={courseFilters.instructor} />
+                    <ActiveFilters singleFilter={courseFilters.courseLevel} />
                 </div>
             </div>
         </div>
