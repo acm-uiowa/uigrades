@@ -42,7 +42,7 @@ export default function Home() {
                     <span>
                         <span className="text-hawkeye-gold">UI</span>
                         Grades currently supports data between Fall 2022 and
-                        Fall 2024!
+                        Spring 2025!
                     </span>
                 </div>
                 <HomePageGraphs className="w-full md:w-3/4" />
