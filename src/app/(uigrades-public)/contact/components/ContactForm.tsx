@@ -35,7 +35,7 @@ export function ContactForm() {
                         </span>
                         <BorderContainerSmall>
                             <input
-                                className="w-full placeholder-primary-medium-gray"
+                                className="w-full cursor-not-allowed placeholder-primary-medium-gray"
                                 type="text"
                                 name="name"
                                 placeholder="E.g. Kyle"
@@ -49,6 +49,7 @@ export function ContactForm() {
                                         e.preventDefault();
                                     }
                                 }}
+                                disabled
                             />
                         </BorderContainerSmall>
                     </label>
@@ -65,7 +66,7 @@ export function ContactForm() {
                         </span>
                         <BorderContainerSmall>
                             <input
-                                className="w-full placeholder-primary-medium-gray"
+                                className="w-full cursor-not-allowed placeholder-primary-medium-gray"
                                 type="text"
                                 name="email"
                                 placeholder="E.g. kyle@uiowa.edu"
@@ -79,6 +80,7 @@ export function ContactForm() {
                                         e.preventDefault();
                                     }
                                 }}
+                                disabled
                             />
                         </BorderContainerSmall>
                     </label>
@@ -95,7 +97,7 @@ export function ContactForm() {
                         </span>
                         <BorderContainerSmall>
                             <textarea
-                                className="w-full resize-none placeholder-primary-medium-gray"
+                                className="w-full cursor-not-allowed resize-none placeholder-primary-medium-gray"
                                 name="message"
                                 placeholder="Your Message Here"
                                 defaultValue={
@@ -104,6 +106,7 @@ export function ContactForm() {
                                         : ""
                                 }
                                 rows={12}
+                                disabled
                             />
                         </BorderContainerSmall>{" "}
                     </label>
