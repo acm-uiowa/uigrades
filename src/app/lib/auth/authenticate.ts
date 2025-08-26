@@ -27,10 +27,7 @@ async function createAdminSession() {
     return { sessionID: sessionID, expiresAt: expiresAt };
 }
 
-export default async function loginAdmin(
-    inputPassword: string,
-) {
-
+export default async function loginAdmin(inputPassword: string) {
     const password = process.env.ADMIN_PASSWORD ?? "";
     if (inputPassword !== password) {
         throw new Error("Invalid password, please try again.");

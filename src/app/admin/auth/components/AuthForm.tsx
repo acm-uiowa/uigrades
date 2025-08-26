@@ -12,9 +12,7 @@ export function AuthForm() {
 
     useEffect(() => {
         if (state.state === "success") {
-            router.replace(
-                `/admin/dashboard`,
-            );
+            router.replace(`/admin/dashboard`);
         }
     }, [router, state]);
 

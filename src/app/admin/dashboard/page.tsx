@@ -11,7 +11,7 @@ export default function DashboardPage() {
     const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         if (e.target.files) {
             setFile(e.target.files[0]);
-            setMessage(null); 
+            setMessage(null);
         }
     };
 

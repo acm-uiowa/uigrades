@@ -3,14 +3,21 @@
 import xlsx from "node-xlsx";
 import { parseRawData } from "@/db/seeds/seed-courses";
 import { getClient } from "@/db";
+import { Db, Collection, Document, MongoServerError } from "mongodb";
 
-async function safeInsertMany(collection: any, docs: any[]) {
+async function safeInsertMany<T extends Document>(
+    collection: Collection<T>,
+    docs: T[],
+) {
     if (docs.length === 0) return;
 
     try {
-        await collection.insertMany(docs, { ordered: false });
-    } catch (error: any) {
-        if (error.code === 11000) {
+        await collection.insertMany(
+            docs as import("mongodb").OptionalUnlessRequiredId<T>[],
+            { ordered: false },
+        );
+    } catch (error: unknown) {
+        if (error instanceof MongoServerError && error.code === 11000) {
             console.log(
                 `Duplicate key error in collection ${collection.collectionName}, skipped duplicates`,
             );
@@ -33,7 +40,7 @@ export async function uploadXlsx(formData: FormData) {
         await parseRawData(workSheets);
 
     const client = await getClient();
-    const db = client.db("courses_information");
+    const db: Db = client.db("courses_information");
 
     await safeInsertMany(db.collection("courses"), courses);
     await safeInsertMany(db.collection("generic_courses"), genericCourses);
