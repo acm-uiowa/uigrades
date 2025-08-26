@@ -1,4 +1,4 @@
-import { NavBarLink } from "./NavBarLinks";
+import { LogoutButton } from "./LogoutButton";
 
 export function NavBar({ className }: { className?: string }) {
     return (
@@ -8,11 +8,8 @@ export function NavBar({ className }: { className?: string }) {
             <h1 className="header-2-mobile px-flex-gap-small">
                 <span className="text-hawkeye-gold">UI</span>Grades
             </h1>
-            <div className="flex flex-col">
-                <NavBarLink href={"/admin/dashboard/data"}>Data</NavBarLink>
-                <NavBarLink href={"/admin/dashboard/analytics"}>
-                    Analytics
-                </NavBarLink>
+            <div className="flex h-full flex-col">
+                <LogoutButton />
             </div>
         </div>
     );

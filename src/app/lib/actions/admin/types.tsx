@@ -34,5 +34,24 @@ interface OAuthFormSuccess {
     state: "success";
 }
 
+interface AuthenticationFormEmpty {
+    state?: undefined;
+    email?: undefined;
+    password?: undefined;
+}
+
+interface AuthenticationFormError {
+    state: "error";
+    error: string;
+}
+
+interface AuthenticationFormSuccess {
+    state: "success";
+}
+
 export type LoginFormState = LoginFormEmpty | LoginFormError | LoginFormSuccess;
 export type OAuthFormState = OAuthFormEmpty | OAuthFormError | OAuthFormSuccess;
+export type AuthenticationFormState =
+    | AuthenticationFormEmpty
+    | AuthenticationFormError
+    | AuthenticationFormSuccess;

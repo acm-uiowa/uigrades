@@ -11,6 +11,7 @@ import {
     Grades,
     GenericCourseType,
 } from "../types";
+import { getClient } from "..";
 
 const rawDataPath = path.join(
     process.cwd(),
@@ -36,7 +37,7 @@ function reformatSetData(data: Set<string>) {
     return reformatedData;
 }
 
-async function parseRawData(workSheets: RawWorkSheetType[]) {
+export async function parseRawData(workSheets: RawWorkSheetType[]) {
     const allCourses: { [key: string]: CourseType } = {};
     const allGenericCourses: { [key: string]: GenericCourseType } = {};
 
@@ -276,6 +277,26 @@ export default async function seedCoursesInformation() {
         await parseRawData(workSheets);
     try {
         console.log("data seeding beginning");
+
+        const client = await getClient();
+        const db = client.db("courses_information");
+
+        await db
+            .collection("courses")
+            .createIndex({ uniqueID: 1 }, { unique: true });
+        await db
+            .collection("generic_courses")
+            .createIndex({ uniqueID: 1 }, { unique: true });
+        await db
+            .collection("subjects")
+            .createIndex({ name: 1 }, { unique: true });
+        await db
+            .collection("sessions")
+            .createIndex({ name: 1 }, { unique: true });
+        await db
+            .collection("instructors")
+            .createIndex({ name: 1 }, { unique: true });
+
         await mutations.courses.insertCourses(courses);
         await mutations.courses.insertGenericCourses(genericCourses);
         await mutations.courses.insertSubjects(subjects);
