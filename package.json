@@ -12,6 +12,7 @@
         "seed-db": ""
     },
     "dependencies": {
+        "@emailjs/browser": "^4.4.1",
         "@heroicons/react": "^2.2.0",
         "@next/third-parties": "^15.1.5",
         "@sendgrid/mail": "^8.1.4",

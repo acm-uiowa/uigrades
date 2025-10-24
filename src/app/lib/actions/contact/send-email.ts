@@ -4,6 +4,10 @@ import sgMail from "@sendgrid/mail";
 
 const SENDGRID_API_KEY = process.env.SENDGRID_API_KEY;
 
+//This is the old implementation for sending emails through contact page
+//This is currently unused. Emails are now sent through emailJS which is
+//much simpler and handled in the frontend. Check the useEffect hook in 
+//ContactForm.tsx for the emailjs send code
 export async function sendEmail({
     name,
     email,

@@ -22,26 +22,6 @@ export default function ContactPage() {
                     </a>
                     .
                 </h2>
-                <h2 className="w-2/3 pt-8">
-                    <span className="text-red-500">Notice: </span>
-                    The email service used in the form below is unfortunately no
-                    longer supporting free tiers, please send questions/concerns
-                    via email directly to{" "}
-                    <a
-                        className="text-hawkeye-gold underline"
-                        href="mailto:acm@uiowa.edu"
-                    >
-                        acm@uiowa.edu
-                    </a>{" "}
-                    or{" "}
-                    <a
-                        className="text-hawkeye-gold underline"
-                        href="mailto:kyle-chi@uiowa.edu"
-                    >
-                        kyle-chi@uiowa.edu
-                    </a>
-                    .
-                </h2>
             </div>
             <ContactForm />
         </div>

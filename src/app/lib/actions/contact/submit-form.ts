@@ -37,8 +37,6 @@ export default async function submitForm(
     }
 
     try {
-        await sendEmail(parsedData.data);
-
         return {
             state: "success",
             body: parsedData.data,
